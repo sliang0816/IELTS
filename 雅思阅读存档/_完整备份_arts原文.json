@@ -1,0 +1,2576 @@
+[
+ {
+  "lv": "原文",
+  "text": "The images in the dataset ( VOC format) were captured by a UAV at an altitude of 30 meters. The collected images were annotated in PASCAL VOC format. A total of 11,158 instances in 2,440 images are incorporated in the dataset.\n\nThe UAV-PDD2023 dataset, captured by unmanned aerial vehicles (UAVs), provides a benchmark for road damage detection. It is highly useful for municipal authorities and road agencies to conduct low-cost road condition monitoring.\n\nSix types of road damages are labeled in the dataset: Longitudinal cracks (LC), Transverse cracks (TC), Alligator cracks (AC), Oblique cracks (OC), Repair (RP), and Potholes (PH).\n\nResearchers can use this dataset as a benchmark to evaluate the performance of different algorithms in addressing similar problems, such as image classification and object detection.",
+  "title": "UAV-PDD2023 Road Damage Dataset",
+  "tp": "粘贴",
+  "ts": 1794301455096,
+  "u": 1794301617744,
+  "words": [
+   {
+    "ex": "The plane flew at a high altitude.",
+    "grp": "地理",
+    "ipa": "/ˈæltɪˌtud/",
+    "pos": "n.",
+    "syn": [
+     "height",
+     "elevation"
+    ],
+    "w": "altitude",
+    "zh": "海拔,高度"
+   },
+   {
+    "ex": "Students annotated the text with notes.",
+    "grp": "学术",
+    "ipa": "/ˈænəˌteɪt/",
+    "pos": "v.",
+    "syn": [
+     "label",
+     "comment on"
+    ],
+    "w": "annotate",
+    "zh": "注释,标注"
+   },
+   {
+    "ex": "There were several instances of cheating.",
+    "grp": "学术",
+    "ipa": "/ˈɪnstəns/",
+    "pos": "n.",
+    "syn": [
+     "example",
+     "case"
+    ],
+    "w": "instance",
+    "zh": "实例,例子"
+   },
+   {
+    "ex": "The plan incorporates new ideas.",
+    "grp": "学术",
+    "ipa": "/ɪnˈkɔrpəˌreɪt/",
+    "pos": "v.",
+    "syn": [
+     "include",
+     "integrate"
+    ],
+    "w": "incorporate",
+    "zh": "包含,纳入"
+   },
+   {
+    "ex": "An unmanned vehicle explored the area.",
+    "grp": "科技",
+    "ipa": "/ʌnˈmænd/",
+    "pos": "adj.",
+    "syn": [
+     "pilotless",
+     "uncrewed"
+    ],
+    "w": "unmanned",
+    "zh": "无人的"
+   },
+   {
+    "ex": "The test is a benchmark for quality.",
+    "grp": "学术",
+    "ipa": "/ˈbɛntʃˌmɑrk/",
+    "pos": "n.",
+    "syn": [
+     "standard",
+     "reference point"
+    ],
+    "w": "benchmark",
+    "zh": "基准,标杆"
+   },
+   {
+    "ex": "Early detection saves lives.",
+    "grp": "科技",
+    "ipa": "/dɪˈtɛkʃən/",
+    "pos": "n.",
+    "syn": [
+     "discovery",
+     "identification"
+    ],
+    "w": "detection",
+    "zh": "检测,发现"
+   },
+   {
+    "ex": "Municipal services include waste collection.",
+    "grp": "城市",
+    "ipa": "/mjuˈnɪsəpəl/",
+    "pos": "adj.",
+    "syn": [
+     "civic",
+     "city-run"
+    ],
+    "w": "municipal",
+    "zh": "市政的"
+   },
+   {
+    "ex": "Local authorities repaired the bridge.",
+    "grp": "社会",
+    "ipa": "/əˈθɔrɪti/",
+    "pos": "n.",
+    "syn": [
+     "government body",
+     "administration"
+    ],
+    "w": "authority",
+    "zh": "当局,官方机构"
+   },
+   {
+    "ex": "Regular monitoring prevents problems.",
+    "grp": "科技",
+    "ipa": "/ˈmɑnɪtərɪŋ/",
+    "pos": "n.",
+    "syn": [
+     "observation",
+     "surveillance"
+    ],
+    "w": "monitoring",
+    "zh": "监测"
+   },
+   {
+    "ex": "Longitudinal lines run along the road.",
+    "grp": "工程",
+    "ipa": "/ˌlɑndʒəˈtudnəl/",
+    "pos": "adj.",
+    "syn": [
+     "lengthwise",
+     "vertical-running"
+    ],
+    "w": "longitudinal",
+    "zh": "纵向的"
+   },
+   {
+    "ex": "Transverse beams support the roof.",
+    "grp": "工程",
+    "ipa": "/trænsˈvɜrs/",
+    "pos": "adj.",
+    "syn": [
+     "crosswise",
+     "lateral"
+    ],
+    "w": "transverse",
+    "zh": "横向的"
+   },
+   {
+    "ex": "An oblique line crossed the page.",
+    "grp": "工程",
+    "ipa": "/oʊˈblik/",
+    "pos": "adj.",
+    "syn": [
+     "slanting",
+     "diagonal"
+    ],
+    "w": "oblique",
+    "zh": "斜的"
+   },
+   {
+    "ex": "We need to evaluate the results.",
+    "grp": "学术",
+    "ipa": "/ɪˈvæljuˌeɪt/",
+    "pos": "v.",
+    "syn": [
+     "assess",
+     "appraise"
+    ],
+    "w": "evaluate",
+    "zh": "评估"
+   },
+   {
+    "ex": "The algorithm sorts data quickly.",
+    "grp": "科技",
+    "ipa": "/ˈælɡəˌrɪðəm/",
+    "pos": "n.",
+    "syn": [
+     "procedure",
+     "computational rule"
+    ],
+    "w": "algorithm",
+    "zh": "算法"
+   },
+   {
+    "ex": "Six types of road damages are labeled in the dataset: Longitudinal cracks (LC), Transverse cracks (TC), Alligator cracks (AC), Oblique cracks (OC), Repair (RP), and Potholes (PH).",
+    "grp": "道路工程",
+    "ipa": "/ˈælɪˌɡeɪtər/",
+    "pos": "n.",
+    "syn": [
+     "crocodile cracking",
+     "fatigue cracking",
+     "map cracking"
+    ],
+    "w": "alligator",
+    "zh": "鳄鱼纹(龟裂);指路面出现的网状龟裂,形似鳄鱼皮"
+   },
+   {
+    "ex": "Six types of road damages are labeled in the dataset: Longitudinal cracks (LC), Transverse cracks (TC), Alligator cracks (AC), Oblique cracks (OC), Repair (RP), and Potholes (PH).",
+    "grp": "道路工程",
+    "ipa": "/rɪˈpɛr/",
+    "pos": "n.",
+    "syn": [
+     "patch",
+     "mend",
+     "restoration"
+    ],
+    "w": "repair",
+    "zh": "修补(处);已修复的路面区域"
+   },
+   {
+    "ex": "Six types of road damages are labeled in the dataset: Longitudinal cracks (LC), Transverse cracks (TC), Alligator cracks (AC), Oblique cracks (OC), Repair (RP), and Potholes (PH).",
+    "grp": "道路工程",
+    "ipa": "/ˈpɑːtˌhoʊl/",
+    "pos": "n.",
+    "syn": [
+     "road hole",
+     "chuckhole",
+     "pavement pit"
+    ],
+    "w": "pothole",
+    "zh": "坑洞;路面坑槽(道路损坏类型之一)"
+   }
+  ],
+  "zh": "UAV-PDD2023 道路损坏数据集\n\n该数据集(VOC 格式)中的图像由无人机在 30 米高度拍摄。所收集的图像按照 PASCAL VOC 格式进行了标注。数据集中共包含 2,440 张图像中的 11,158 个实例。\n\nUAV-PDD2023 数据集由无人驾驶飞行器(UAV)拍摄,为道路损坏检测提供了基准。它对市政部门和道路管理机构开展低成本的路况监测非常有用。\n\n数据集中标注了六种道路损坏类型:纵向裂缝(LC)、横向裂缝(TC)、龟裂(AC)、斜向裂缝(OC)、修补(RP)和坑洞(PH)。\n\n研究人员可以将该数据集作为基准,评估不同算法在解决类似问题(如图像分类和目标检测)时的性能。"
+ },
+ {
+  "lv": "原文",
+  "text": "In order to meet the data needs for road pavement distress detection, we have created a standardized dataset road pavement distress named HighRPD, which consists of road pavement distress images captured from a drone perspective. This dataset maintains a uniform image resolution of 640x640 pixels, in alignment with the test dataset specifications for the YOLO v8 model. Meanwhile, informed by the prevalence of road pavement distress, the dataset HighRPD specifically targets road pavement distress classified into three fundamental categories: line, block, and pit. We utilized the Labelbox platform in combination with DarkLabel for constructing our dataset. In summary, a total of 11,696 road pavement images were successfully labeled, including 12,365 line annotations, 8,239 block annotations, and 1,412 pit annotations.\n\nThe HighRPD dataset comprises two subfolders: one named 'images' and the other 'labels'. The 'images' folder contains pictures sized 640x640 pixels in JPG format, while the 'labels' folder contains txt files with labels formatted in the YOLO style. Each object is represented by a single line, formatted as 'class center_x center_y width height'. There are three classes: class 0 for lines, class 1 for blocks, and class 2 for pits. The coordinates (x_center, y_center, width, height) are normalized by dividing x_center and width by the image width, and y_center and height by the image height.",
+  "title": "HighRPD: A Drone-Captured Road Pavement Distress Dataset",
+  "tp": "粘贴",
+  "ts": 1794300408211,
+  "u": 1794300675554,
+  "words": [
+   {
+    "ex": "The pavement was damaged by heavy trucks.",
+    "grp": "交通",
+    "ipa": "/ˈpeɪvmənt/",
+    "pos": "n.",
+    "syn": [
+     "road surface",
+     "paving"
+    ],
+    "w": "pavement",
+    "zh": "路面;人行道"
+   },
+   {
+    "ex": "Cracks are a common sign of pavement distress.",
+    "grp": "工程",
+    "ipa": "/dɪˈstrɛs/",
+    "pos": "n.",
+    "syn": [
+     "damage",
+     "deterioration"
+    ],
+    "w": "distress",
+    "zh": "(路面)病害;痛苦"
+   },
+   {
+    "ex": "Standardized tests allow fair comparison.",
+    "grp": "方法",
+    "ipa": "/ˈstændərdaɪzd/",
+    "pos": "adj.",
+    "syn": [
+     "uniform",
+     "regulated"
+    ],
+    "w": "standardized",
+    "zh": "标准化的"
+   },
+   {
+    "ex": "The images have a uniform size.",
+    "grp": "方法",
+    "ipa": "/ˈjunɪfɔrm/",
+    "pos": "adj.",
+    "syn": [
+     "consistent",
+     "even"
+    ],
+    "w": "uniform",
+    "zh": "统一的,一致的"
+   },
+   {
+    "ex": "The camera has a high resolution.",
+    "grp": "科技",
+    "ipa": "/ˌrɛzəˈluʃən/",
+    "pos": "n.",
+    "syn": [
+     "image sharpness",
+     "clarity"
+    ],
+    "w": "resolution",
+    "zh": "分辨率;决议"
+   },
+   {
+    "ex": "The policy is in alignment with our goals.",
+    "grp": "方法",
+    "ipa": "/əˈlaɪnmənt/",
+    "pos": "n.",
+    "syn": [
+     "agreement",
+     "conformity"
+    ],
+    "w": "alignment",
+    "zh": "一致;对齐"
+   },
+   {
+    "ex": "The product meets the required specifications.",
+    "grp": "工程",
+    "ipa": "/ˌspɛsəfəˈkeɪʃən/",
+    "pos": "n.",
+    "syn": [
+     "requirement",
+     "detailed description"
+    ],
+    "w": "specification",
+    "zh": "规格;详细说明"
+   },
+   {
+    "ex": "The prevalence of obesity is rising.",
+    "grp": "统计",
+    "ipa": "/ˈprɛvələns/",
+    "pos": "n.",
+    "syn": [
+     "commonness",
+     "frequency"
+    ],
+    "w": "prevalence",
+    "zh": "普遍性;流行程度"
+   },
+   {
+    "ex": "Honesty is fundamental to trust.",
+    "grp": "概念",
+    "ipa": "/ˌfʌndəˈmɛntl/",
+    "pos": "adj.",
+    "syn": [
+     "basic",
+     "essential"
+    ],
+    "w": "fundamental",
+    "zh": "基本的;根本的"
+   },
+   {
+    "ex": "Farmers utilize drones to monitor crops.",
+    "grp": "方法",
+    "ipa": "/ˈjutəlaɪz/",
+    "pos": "v.",
+    "syn": [
+     "use",
+     "employ"
+    ],
+    "w": "utilize",
+    "zh": "利用"
+   },
+   {
+    "ex": "Each image needs careful annotation.",
+    "grp": "数据",
+    "ipa": "/ˌænəˈteɪʃən/",
+    "pos": "n.",
+    "syn": [
+     "label",
+     "note"
+    ],
+    "w": "annotation",
+    "zh": "标注;注释"
+   },
+   {
+    "ex": "The dataset comprises two folders.",
+    "grp": "结构",
+    "ipa": "/kəmˈpraɪz/",
+    "pos": "v.",
+    "syn": [
+     "consist of",
+     "include"
+    ],
+    "w": "comprise",
+    "zh": "包含;由…组成"
+   },
+   {
+    "ex": "Researchers normalize the data before analysis.",
+    "grp": "数据",
+    "ipa": "/ˈnɔrməlaɪz/",
+    "pos": "v.",
+    "syn": [
+     "standardize",
+     "adjust to a common scale"
+    ],
+    "w": "normalize",
+    "zh": "归一化;使标准化"
+   },
+   {
+    "ex": "The map gives the exact coordinates of the site.",
+    "grp": "数学",
+    "ipa": "/koʊˈɔrdɪnət/",
+    "pos": "n.",
+    "syn": [
+     "position value",
+     "map reference"
+    ],
+    "w": "coordinate",
+    "zh": "坐标"
+   },
+   {
+    "ex": "In order to meet the data needs for road pavement distress detection, we have created a standardized dataset road pavement distress named HighRPD, which consists of road pavement distress images captured from a drone perspective.",
+    "grp": "航空科技",
+    "ipa": "/droʊn/",
+    "pos": "n.",
+    "syn": [
+     "UAV",
+     "unmanned aircraft",
+     "quadcopter"
+    ],
+    "w": "drone",
+    "zh": "无人机"
+   },
+   {
+    "ex": "Meanwhile, informed by the prevalence of road pavement distress, the dataset HighRPD specifically targets road pavement distress classified into three fundamental categories: line, block, and pit.",
+    "grp": "道路工程",
+    "ipa": "/pɪt/",
+    "pos": "n.",
+    "syn": [
+     "pothole",
+     "hole",
+     "cavity"
+    ],
+    "w": "pit",
+    "zh": "坑洞(路面凹坑类病害)"
+   },
+   {
+    "ex": "Meanwhile, informed by the prevalence of road pavement distress, the dataset HighRPD specifically targets road pavement distress classified into three fundamental categories: line, block, and pit.",
+    "grp": "道路病害",
+    "ipa": "/blɑk/",
+    "pos": "n.",
+    "syn": [
+     "patch",
+     "chunk",
+     "cluster"
+    ],
+    "w": "block",
+    "zh": "块状(裂缝);块裂"
+   },
+   {
+    "ex": "Meanwhile, informed by the prevalence of road pavement distress, the dataset HighRPD specifically targets road pavement distress classified into three fundamental categories: line, block, and pit.",
+    "grp": "道路工程",
+    "ipa": "/laɪn/",
+    "pos": "n.",
+    "syn": [
+     "linear crack",
+     "streak",
+     "stripe"
+    ],
+    "w": "line",
+    "zh": "线状(裂缝);线形病害"
+   }
+  ],
+  "zh": "HighRPD:无人机拍摄的路面病害数据集"
+ },
+ {
+  "lv": "原文",
+  "text": "# Tips for Best YOLOv5 Training Results\n\nThis guide explains how to produce the best mAP and training results with YOLOv5.\n\nMost of the time, good results can be obtained with no changes to the models or training settings, **provided your dataset is sufficiently large and well labeled**. If at first you don't get good results, there are steps you might be able to take to improve, but we always recommend users **first train with all default settings** before considering any changes. This helps establish a performance baseline and spot areas for improvement.\n\nIf you have questions about your training results, **provide as much information as possible** to get a helpful response, including results plots (train losses, val losses, P, R, mAP), PR curve, confusion matrix, training mosaics, test results and dataset statistics images such as labels.png. All of these are located in your `project/name` directory, typically `yolov5/runs/train/exp`.\n\nThe sections below cover the main factors that affect YOLOv5 training results.\n\n## Dataset\n\n- **Images per class.** ≥ 1500 images per class recommended\n- **Instances per class.** ≥ 10000 instances (labeled objects) per class recommended\n- **Image variety.** Must be representative of deployed environment. For real-world use cases we recommend images from different times of day, different seasons, different weather, different lighting, different angles, different sources (scraped online, collected locally, different cameras) etc.\n- **Label consistency.** All instances of all classes in all images must be labeled. Partial labeling will not work.\n- **Label accuracy.** Labels must closely enclose each object. No space should exist between an object and its bounding box. No objects should be missing a label.\n- **Train/val split discipline.** Ensure that validation and test images never appear in the training set to avoid overly optimistic metrics. Keep class distributions similar between the splits.\n- **Label verification.** View the `train_batch*.jpg` mosaics on train start to verify your labels appear correct.\n- **Background images.** Background images are images with no objects that are added to a dataset to reduce False Positives (FP). We recommend about 0-10% background images to help reduce FPs (COCO has 1000 background images for reference, 1% of the total). No labels are required for background images.\n\n## Model Selection\n\nLarger models like YOLOv5x and YOLOv5x6 will produce better results in nearly all cases, but have more parameters, require more CUDA memory to train, and are slower to run. For **mobile** deployments we recommend YOLOv5s/m, for **cloud** deployments we recommend YOLOv5l/x.\n\n- **Start from Pretrained weights.** Recommended for small to medium-sized datasets (e.g. VOC, VisDrone, GlobalWheat). Pass the name of the model to the `--weights` argument. Models download automatically from the latest YOLOv5 release.\n\n    ```bash\n    python train.py --data custom.yaml --weights yolov5s.pt\n    python train.py --data custom.yaml --weights yolov5m.pt\n    python train.py --data custom.yaml --weights yolov5l.pt\n    python train.py --data custom.yaml --weights yolov5x.pt\n    python train.py --data custom.yaml --weights custom_pretrained.pt\n    ```\n\n- **Start from Scratch.** Recommended for large datasets (e.g. COCO, Objects365, OIv6). Pass the model architecture YAML you are interested in, along with an empty `--weights ''` argument:\n\n    ```bash\n    python train.py --data custom.yaml --weights '' --cfg yolov5s.yaml\n    python train.py --data custom.yaml --weights '' --cfg yolov5m.yaml\n    python train.py --data custom.yaml --weights '' --cfg yolov5l.yaml\n    python train.py --data custom.yaml --weights '' --cfg yolov5x.yaml\n    ```\n\n## Training Settings\n\nBefore modifying anything, **first train with default settings to establish a performance baseline**. A full list of train.py settings can be found in the train.py argparser.\n\n- **Epochs.** Start with 300 epochs. If this overfits early then you can reduce epochs. If overfitting does not occur after 300 epochs, train longer, e.g. 600 or 1200 epochs.\n- **Image size.** COCO trains at native resolution of `--img 640`, though due to the large number of small objects in the dataset it can benefit from training at higher resolutions such as `--img 1280`. If there are many small objects then custom datasets will benefit from training at native or higher resolution. Best inference results are obtained at the same `--img` as the training was run at, e.g. if you train at `--img 1280` you should also test and detect at `--img 1280`.\n- **Batch size.** Use the largest `--batch-size` that your hardware allows for. Small batch sizes produce poor batch normalization statistics and should be avoided. You can use `--batch-size -1` to automatically select the optimal batch size for your GPU.\n- **Learning rate.** The default learning rate schedule works well in most cases. For faster convergence, you can try using the `--cos-lr` flag to enable cosine learning rate scheduling, which gradually reduces the learning rate following a cosine curve over epochs.\n- **Data augmentation.** YOLOv5 includes various augmentation techniques like mosaic, which combines multiple training images. Adjust augmentation strength via the `mosaic` hyperparameter in your `--hyp` file to help stabilize training.\n- **Hyperparameters.** Default hyperparameters are in hyp.scratch-low.yaml. We recommend you train with default hyperparameters first before thinking of modifying any. In general, increasing augmentation hyperparameters will reduce and delay overfitting, allowing for longer trainings and higher final mAP. Reduction in loss component gain hyperparameters like `hyp['obj']` will help reduce overfitting in those specific loss components. For an automated method of optimizing these hyperparameters, see our Hyperparameter Evolution Tutorial.\n- **Mixed precision training.** YOLOv5 enables Automatic Mixed Precision (AMP) automatically when a supported GPU is detected, speeding up training and reducing memory usage without sacrificing model accuracy.\n- **Multi-GPU training.** If you have multiple GPUs, launch DistributedDataParallel training with `python -m torch.distributed.run --nproc_per_node 4 train.py ... --device 0,1,2,3`, which can significantly reduce training time.\n- **Early stopping.** Use `--patience 50` to stop training if validation metrics don't improve for 50 epochs, saving time and preventing overfitting.\n\n## Advanced Optimization Techniques\n\n- **Transfer learning.** For specialized datasets, start with pretrained weights and optionally freeze layers with `--freeze` to adapt the model to your specific task.\n- **Model pruning.** After training, consider pruning your model to zero out redundant weights with little loss in accuracy, then deploy it with a sparsity-aware runtime to realize speedups.\n- **Model ensemble.** For critical applications, train multiple models with different configurations and ensemble their predictions for improved accuracy.\n- **Test-time augmentation.** Enable TTA during inference with `--augment` to improve prediction accuracy by merging predictions from flipped and rescaled versions of the input image.\n\n## Further Reading\n\nIf you'd like to know more, a good place to start is Karpathy's A Recipe for Training Neural Networks, which has ideas for training that apply broadly across all ML domains.\n\nGood luck, and let us know if you have any other questions.\n\n## FAQ\n\n### How do I know if my model is overfitting?\n\nYour model may be overfitting if the training loss continues to decrease while validation loss starts to increase. Monitor the validation mAP - if it plateaus or decreases while training loss keeps improving, that's a sign of overfitting. Solutions include adding more training data, increasing data augmentation, or applying regularization techniques.\n\n### What's the optimal batch size for training YOLOv5?\n\nThe optimal batch size depends on your GPU memory. Larger batch sizes generally provide better batch normalization statistics and training stability. Use the largest batch size your hardware can handle without running out of memory. You can use `--batch-size -1` to automatically determine the optimal batch size for your setup.\n\n### How can I speed up YOLOv5 training?\n\nTo speed up training, try: using multiple GPUs with DDP, caching your dataset with `--cache`, and optimizing your batch size (mixed precision is enabled automatically on supported GPUs). Also consider using a smaller model variant like YOLOv5s if absolute accuracy isn't critical.",
+  "title": "Tips for Best YOLOv5 Training Results",
+  "tp": "粘贴",
+  "ts": 1793932009331,
+  "u": 1793933769967,
+  "words": [
+   {
+    "ex": "We need a baseline to compare the results.",
+    "grp": "研究方法",
+    "ipa": "/ˈbeɪslaɪn/",
+    "pos": "n.",
+    "syn": [
+     "benchmark",
+     "starting point",
+     "reference level"
+    ],
+    "w": "baseline",
+    "zh": "基线，基准"
+   },
+   {
+    "ex": "The sample must be representative of the whole population.",
+    "grp": "研究方法",
+    "ipa": "/ˌrepriˈzentətɪv/",
+    "pos": "adj.",
+    "syn": [
+     "typical",
+     "characteristic",
+     "illustrative"
+    ],
+    "w": "representative",
+    "zh": "有代表性的"
+   },
+   {
+    "ex": "Consistency is important in scientific experiments.",
+    "grp": "研究方法",
+    "ipa": "/kənˈsɪstənsi/",
+    "pos": "n.",
+    "syn": [
+     "uniformity",
+     "coherence",
+     "regularity"
+    ],
+    "w": "consistency",
+    "zh": "一致性"
+   },
+   {
+    "ex": "Good data discipline prevents errors.",
+    "grp": "行为规范",
+    "ipa": "/ˈdɪsəplɪn/",
+    "pos": "n.",
+    "syn": [
+     "rigor",
+     "strictness",
+     "control"
+    ],
+    "w": "discipline",
+    "zh": "严格的规范；纪律"
+   },
+   {
+    "ex": "The forecast was overly optimistic.",
+    "grp": "评价态度",
+    "ipa": "/ˌɑːptɪˈmɪstɪk/",
+    "pos": "adj.",
+    "syn": [
+     "hopeful",
+     "positive",
+     "upbeat"
+    ],
+    "w": "optimistic",
+    "zh": "乐观的"
+   },
+   {
+    "ex": "The company will deploy the new system next year.",
+    "grp": "技术应用",
+    "ipa": "/dɪˈplɔɪ/",
+    "pos": "v.",
+    "syn": [
+     "implement",
+     "put into use",
+     "install"
+    ],
+    "w": "deploy",
+    "zh": "部署，投入使用"
+   },
+   {
+    "ex": "A fence encloses the garden.",
+    "grp": "空间动作",
+    "ipa": "/ɪnˈkloʊz/",
+    "pos": "v.",
+    "syn": [
+     "surround",
+     "encircle",
+     "contain"
+    ],
+    "w": "enclose",
+    "zh": "围住，包围"
+   },
+   {
+    "ex": "Remove redundant information from the report.",
+    "grp": "评价描述",
+    "ipa": "/rɪˈdʌndənt/",
+    "pos": "adj.",
+    "syn": [
+     "unnecessary",
+     "superfluous",
+     "surplus"
+    ],
+    "w": "redundant",
+    "zh": "多余的，冗余的"
+   },
+   {
+    "ex": "Measures were taken to stabilize the economy.",
+    "grp": "变化趋势",
+    "ipa": "/ˈsteɪbəlaɪz/",
+    "pos": "v.",
+    "syn": [
+     "steady",
+     "make stable",
+     "balance"
+    ],
+    "w": "stabilize",
+    "zh": "使稳定"
+   },
+   {
+    "ex": "Sales plateaued after two years of growth.",
+    "grp": "变化趋势",
+    "ipa": "/plæˈtoʊ/",
+    "pos": "v.",
+    "syn": [
+     "level off",
+     "stabilize",
+     "stop rising"
+    ],
+    "w": "plateau",
+    "zh": "进入平稳期，停止增长"
+   },
+   {
+    "ex": "The convergence of technologies changed the industry.",
+    "grp": "变化趋势",
+    "ipa": "/kənˈvɜːrdʒəns/",
+    "pos": "n.",
+    "syn": [
+     "merging",
+     "coming together",
+     "meeting point"
+    ],
+    "w": "convergence",
+    "zh": "收敛，趋同"
+   },
+   {
+    "ex": "Prices have risen significantly this year.",
+    "grp": "程度描述",
+    "ipa": "/sɪɡˈnɪfɪkəntli/",
+    "pos": "adv.",
+    "syn": [
+     "considerably",
+     "substantially",
+     "markedly"
+    ],
+    "w": "significantly",
+    "zh": "显著地"
+   },
+   {
+    "ex": "This is the optimal solution to the problem.",
+    "grp": "评价描述",
+    "ipa": "/ˈɑːptɪməl/",
+    "pos": "adj.",
+    "syn": [
+     "best",
+     "ideal",
+     "most favorable"
+    ],
+    "w": "optimal",
+    "zh": "最优的"
+   },
+   {
+    "ex": "The job requires specialized knowledge.",
+    "grp": "评价描述",
+    "ipa": "/ˈspeʃəlaɪzd/",
+    "pos": "adj.",
+    "syn": [
+     "specific",
+     "expert",
+     "tailored"
+    ],
+    "w": "specialized",
+    "zh": "专门的，专业化的"
+   },
+   {
+    "ex": "The temperature gradually dropped overnight.",
+    "grp": "变化趋势",
+    "ipa": "/ˈɡrædʒuəli/",
+    "pos": "adv.",
+    "syn": [
+     "step by step",
+     "slowly",
+     "progressively"
+    ],
+    "w": "gradually",
+    "zh": "逐渐地"
+   },
+   {
+    "ex": "This helps establish a performance baseline and spot areas for improvement.",
+    "grp": "绩效管理",
+    "ipa": "/spɑt ˈɛriəz/",
+    "pos": "phrase",
+    "syn": [
+     "identify areas",
+     "pinpoint areas",
+     "detect areas"
+    ],
+    "w": "spot areas",
+    "zh": "发现(需要改进的)方面;找出领域"
+   },
+   {
+    "ex": "For real-world use cases we recommend images from different times of day, different seasons, different weather, different lighting, different angles, different sources (scraped online, collected locally, different cameras) etc.",
+    "grp": "数据采集",
+    "ipa": "/skreɪp/",
+    "pos": "v.",
+    "syn": [
+     "harvest",
+     "crawl",
+     "extract"
+    ],
+    "w": "scrape",
+    "zh": "(用程序)抓取、爬取(网络数据)"
+   },
+   {
+    "ex": "- **Model pruning.** After training, consider pruning your model to zero out redundant weights with little loss in accuracy, then deploy it with a sparsity-aware runtime to realize speedups.",
+    "grp": "机器学习",
+    "ipa": "/pruːn/",
+    "pos": "v.",
+    "syn": [
+     "trim",
+     "cut back",
+     "sparsify"
+    ],
+    "w": "prune",
+    "zh": "剪枝(移除神经网络中冗余的权重或连接以压缩模型)"
+   },
+   {
+    "ex": "- **Model pruning.** After training, consider pruning your model to zero out redundant weights with little loss in accuracy, then deploy it with a sparsity-aware runtime to realize speedups.",
+    "grp": "机器学习",
+    "ipa": "/ˈspiːdˌʌp/",
+    "pos": "n.",
+    "syn": [
+     "acceleration",
+     "performance gain",
+     "faster execution"
+    ],
+    "w": "speedup",
+    "zh": "加速;速度提升(指运行速度的提高)"
+   }
+  ],
+  "zh": "获得最佳 YOLOv5 训练效果的技巧\n\n本指南介绍如何使用 YOLOv5 获得最佳的 mAP 和训练结果。\n\n在大多数情况下，只要数据集足够大且标注良好，无需改动模型或训练设置就能获得不错的结果。如果一开始效果不理想，你可以采取一些步骤来改进，但我们始终建议用户在考虑任何改动之前，先使用全部默认设置进行训练。这有助于建立性能基线，并发现可以改进的地方。\n\n如果你对训练结果有疑问，请尽可能提供更多信息以获得有用的回复，包括结果图（训练损失、验证损失、P、R、mAP）、PR 曲线、混淆矩阵、训练马赛克图、测试结果以及数据集统计图像（如 labels.png）。所有这些文件都位于你的 project/name 目录中，通常是 yolov5/runs/train/exp。\n\n下面的各部分涵盖了影响 YOLOv5 训练结果的主要因素。\n\n数据集\n\n- 每类图像数量：建议每类不少于 1500 张图像。\n- 每类实例数量：建议每类不少于 10000 个实例（已标注的目标）。\n- 图像多样性：必须能代表实际部署环境。对于真实应用场景，我们建议使用来自不同时间段、不同季节、不同天气、不同光照、不同角度、不同来源（网络抓取、本地采集、不同相机）等的图像。\n- 标签一致性：所有图像中所有类别的所有实例都必须被标注。部分标注是行不通的。\n- 标签准确性：标签必须紧密包围每个目标。目标与其边界框之间不应有空隙。不应有任何目标缺少标签。\n- 训练/验证划分的严格性：确保验证和测试图像绝不出现在训练集中，以避免指标过于乐观。保持各划分之间的类别分布相近。\n- 标签验证：在训练开始时查看 train_batch*.jpg 马赛克图，以确认标签显示正确。\n- 背景图像：背景图像是不含任何目标、被加入数据集以减少误检（FP）的图像。我们建议使用约 0-10% 的背景图像来帮助减少误检（作为参考，COCO 有 1000 张背景图像，占总数的 1%）。背景图像不需要标签。\n\n模型选择\n\n在几乎所有情况下，YOLOv5x 和 YOLOv5x6 等较大的模型会产生更好的结果，但它们参数更多，训练时需要更多 CUDA 内存，运行速度也更慢。对于移动端部署，我们推荐 YOLOv5s/m；对于云端部署，我们推荐 YOLOv5l/x。\n\n- 从预训练权重开始：推荐用于小型到中型数据集（如 VOC、VisDrone、GlobalWheat）。将模型名称传给 --weights 参数。模型会自动从最新的 YOLOv5 版本下载。\n\n    （代码示例）\n\n- 从零开始训练：推荐用于大型数据集（如 COCO、Objects365、OIv6）。传入你感兴趣的模型架构 YAML，并搭配一个空的 --weights '' 参数：\n\n    （代码示例）\n\n训练设置\n\n在修改任何内容之前，请先使用默认设置训练以建立性能基线。train.py 的完整设置列表可以在 train.py 的参数解析器中找到。\n\n- 训练轮数：从 300 轮开始。如果过早出现过拟合，可以减少轮数。如果 300 轮后没有出现过拟合，则训练更久，例如 600 或 1200 轮。\n- 图像尺寸：COCO 以 --img 640 的原生分辨率训练，不过由于该数据集中小目标很多，用 --img 1280 等更高分辨率训练可能会受益。如果小目标很多，自定义数据集也会从原生或更高分辨率训练中受益。最佳推理结果是在与训练相同的 --img 下获得的，例如如果你以 --img 1280 训练，也应以 --img 1280 进行测试和检测。\n- 批量大小：使用硬件允许的最大 --batch-size。小批量会产生较差的批归一化统计量，应当避免。你可以使用 --batch-size -1 为你的 GPU 自动选择最优批量大小。\n- 学习率：默认的学习率调度在大多数情况下效果良好。为了更快收敛，你可以尝试使用 --cos-lr 标志来启用余弦学习率调度，它会按照余弦曲线在各轮次中逐步降低学习率。\n- 数据增强：YOLOv5 包含多种增强技术，如马赛克增强（将多张训练图像组合在一起）。通过 --hyp 文件中的 mosaic 超参数调整增强强度，有助于稳定训练。\n- 超参数：默认超参数位于 hyp.scratch-low.yaml 中。我们建议你先使用默认超参数训练，再考虑修改。总体而言，增加数据增强超参数会减少并推迟过拟合，从而允许更长时间的训练和更高的最终 mAP。降低 hyp['obj'] 等损失分量增益超参数，有助于减少这些特定损失分量的过拟合。如需自动优化这些超参数的方法，请参阅我们的超参数进化教程。\n- 混合精度训练：当检测到受支持的 GPU 时，YOLOv5 会自动启用自动混合精度（AMP），在不牺牲模型精度的情况下加快训练速度并减少内存占用。\n- 多 GPU 训练：如果你有多块 GPU，可以使用 python -m torch.distributed.run --nproc_per_node 4 train.py ... --device 0,1,2,3 启动分布式数据并行训练，这可以显著缩短训练时间。\n- 提前停止：使用 --patience 50，如果验证指标在 50 轮内没有改善就停止训练，既节省时间又防止过拟合。\n\n高级优化技术\n\n- 迁移学习：对于专门的数据集，从预训练权重开始，并可选择使用 --freeze 冻结部分层，以使模型适应你的特定任务。\n- 模型剪枝：训练之后，可以考虑对模型进行剪枝，将冗余权重置零而几乎不损失精度，然后用支持稀疏性的运行时部署，以实现加速。\n- 模型集成：对于关键应用，使用不同配置训练多个模型，并集成它们的预测结果以提高精度。\n- 测试时增强：在推理时使用 --augment 启用 TTA，通过合并翻转和缩放后的输入图像的预测结果来提高预测精度。\n\n延伸阅读\n\n如果你想了解更多，一个很好的起点是 Karpathy 的《训练神经网络的秘诀》，其中的训练思路广泛适用于所有机器学习领域。\n\n祝你好运，如果还有其他问题，请告诉我们。\n\n常见问题\n\n我如何知道我的模型是否过拟合？\n\n如果训练损失持续下降而验证损失开始上升，你的模型可能出现了过拟合。监测验证 mAP——如果它在训练损失持续改善的同时趋于平稳或下降，就是过拟合的迹象。解决办法包括增加更多训练数据、加强数据增强或应用正则化技术。\n\n训练 YOLOv5 的最优批量大小是多少？\n\n最优批量大小取决于你的 GPU 内存。较大的批量通常能提供更好的批归一化统计量和训练稳定性。使用你的硬件在不耗尽内存的前提下能处理的最大批量。你可以使用 --batch-size -1 为你的配置自动确定最优批量大小。\n\n如何加快 YOLOv5 的训练速度？\n\n要加快训练，可以尝试：使用 DDP 进行多 GPU 训练、用 --cache 缓存数据集，以及优化批量大小（在受支持的 GPU 上会自动启用混合精度）。如果绝对精度不是关键，也可以考虑使用更小的模型变体，如 YOLOv5s。"
+ },
+ {
+  "lv": "原文",
+  "text": "Building a computer vision project means moving through a clear sequence of stages: defining your goals, collecting and annotating data, training and evaluating a model, and deploying and maintaining it in production. This guide walks through each step in order and explains why it matters, so you can plan and run your own project with confidence.\n\nComputer vision is a subfield of artificial intelligence (AI) that helps computers see and understand the world like humans do. It processes and analyzes images or videos to extract information, recognize patterns, and make decisions based on that data.\n\nComputer vision techniques like object detection, image classification, and instance segmentation can be applied across various industries, from autonomous driving to medical imaging to gain valuable insights.\n\nAn Overview of a Computer Vision Project\n\nBefore discussing the details of each step involved in a computer vision project, let's look at the overall process. If you started a computer vision project today, you'd take the following steps:\n\nYour first priority is to understand your project's requirements.\n\nThen, you collect and accurately label the images that will help train your model.\n\nNext, you clean and augment your data to prepare it for model training.\n\nAfter training, you thoroughly evaluate and test your model to make sure it performs consistently under different conditions.\n\nFinally, you deploy your model into the real world and monitor and maintain it based on new insights and feedback.\n\nNow that you know what to expect, the sections below cover each step in detail.\n\nStep 1: Defining Your Project's Goals\n\nThe first step in any computer vision project is clearly defining the problem you're trying to solve. Knowing the end goal helps you start to build a solution. This is especially true when it comes to computer vision because your project's objective will directly affect which computer vision task you need to focus on.\n\nHere are some examples of project objectives and the computer vision tasks that can be used to reach these objectives:\n\nObjective: To develop a system that can monitor and manage the flow of different vehicle types on highways, improving traffic management and safety.\n\nComputer Vision Task: Object detection is ideal for traffic monitoring because it efficiently locates and identifies multiple vehicles. It is less computationally demanding than image segmentation, which provides unnecessary detail for this task, ensuring faster, real-time analysis.\n\nObjective: To develop a tool that assists radiologists by providing precise, pixel-level outlines of tumors in medical imaging scans.\n\nComputer Vision Task: Image segmentation is suitable for medical imaging because it provides accurate and detailed boundaries of tumors that are crucial for assessing size, shape, and treatment planning.\n\nObjective: To create a digital system that categorizes various documents (e.g., invoices, receipts, legal paperwork) to improve organizational efficiency and document retrieval.\n\nComputer Vision Task: Image classification is ideal here as it handles one document at a time, without needing to consider the document's position in the image. This approach simplifies and accelerates the sorting process.\n\nSelecting the Right Model and Training Approach\n\nAfter understanding the project objective and suitable computer vision tasks, an essential part of defining the project goal is selecting the right model and training approach.\n\nDepending on the objective, you might choose to select the model first or after seeing what data you are able to collect in Step 2. For example, suppose your project is highly dependent on the availability of specific types of data. In that case, it may be more practical to gather and analyze the data first before selecting a model. On the other hand, if you have a clear understanding of the model requirements, you can choose the model first and then collect data that fits those specifications.\n\nChoosing between training from scratch or using transfer learning affects how you prepare your data. Training from scratch requires a diverse dataset to build the model's understanding from the ground up. Transfer learning, on the other hand, allows you to use a pretrained model and adapt it with a smaller, more specific dataset. Also, choosing a specific model to train will determine how you need to prepare your data, such as resizing images or adding annotations, according to the model's specific requirements.\n\nConsider deployment when choosing a model\n\nConsider a model's deployment target to ensure compatibility and performance. For example, lightweight models are ideal for edge computing thanks to their efficiency on resource-constrained devices.\n\nTo learn more, read our guide on defining your project's goals and selecting the right model.\n\nBefore getting into the hands-on work of a computer vision project, it's important to have a clear understanding of these details. Double-check that you've considered the following before moving on to Step 2:\n\nClearly define the problem you're trying to solve.\n\nDetermine the end goal of your project.\n\nIdentify the specific computer vision task needed (e.g., object detection, image classification, image segmentation).\n\nDecide whether to train a model from scratch or use transfer learning.\n\nSelect the appropriate model for your task and deployment needs.\n\nStep 2: Data Collection and Data Annotation\n\nThe quality of your computer vision models depends on the quality of your dataset. You can either collect images from the internet, take your own pictures, or use pre-existing datasets. Useful sources of public datasets include Google Dataset Search Engine, UC Irvine Machine Learning Repository, and Kaggle Datasets.\n\nSome libraries, like Ultralytics, provide built-in support for various datasets, making it easier to get started with high-quality data. These libraries often include utilities for downloading and loading popular datasets, which can save you a lot of time and effort in the initial stages of your project.\n\nHowever, if you choose to collect images or take your own pictures, you'll need to annotate your data. Data annotation is the process of labeling your data to impart knowledge to your model. The type of data annotation you'll work with depends on your specific computer vision technique. Here are some examples:\n\nImage Classification: You'll label the entire image as a single class.\n\nObject Detection: You'll draw bounding boxes around each object in the image and label each box.\n\nImage Segmentation: You'll label each pixel in the image according to the object it belongs to, creating detailed object boundaries.\n\nData collection and annotation can be a time-consuming manual effort. A dedicated annotation tool makes it faster: Ultralytics Platform provides a built-in annotation editor with SAM-powered smart annotation for detection, segmentation, and OBB data, saving labels directly in YOLO format.\n\nStep 3: Data Augmentation and Splitting Your Dataset\n\nAfter collecting and annotating your image data, it's important to first split your dataset into training, validation, and test sets before performing data augmentation. Splitting your dataset before augmentation is crucial to test and validate your model on original, unaltered data. It helps accurately assess how well the model generalizes to new, unseen data.\n\nHere's how to split your data:\n\nTraining Set: It is the largest portion of your data, typically 70-80% of the total, used to train your model.\n\nValidation Set: Usually around 10-15% of your data; this set is used to tune hyperparameters and validate the model during training, helping to prevent overfitting.\n\nTest Set: The remaining 10-15% of your data is set aside as the test set. It is used to evaluate the model's performance on unseen data after training is complete.\n\nAfter splitting your data, you can perform data augmentation by applying transformations like rotating, scaling, and flipping images to artificially increase the size of your dataset. Data augmentation makes your model more robust to variations and improves its performance on unseen images.\n\nLibraries like OpenCV, Albumentations, and TensorFlow offer flexible augmentation functions that you can use. Additionally, some libraries, such as Ultralytics, have built-in augmentation settings directly within their model training function, simplifying the process.\n\nTo understand your data better, you can use tools like Matplotlib or Seaborn to visualize the images and analyze their distribution and characteristics. Visualizing your data helps identify patterns, anomalies, and the effectiveness of your augmentation techniques. The Ultralytics Platform Charts tab can surface many of these insights without any code by automatically generating split distribution, class counts, image-dimension histograms, and annotation-position heatmaps for every uploaded dataset.\n\nBy properly understanding, splitting, and augmenting your data, you can develop a well-trained, validated, and tested model that performs well in real-world applications.\n\nStep 4: Model Training\n\nOnce your dataset is ready for training, you can focus on setting up the necessary environment, managing your datasets, and training your model.\n\nFirst, you'll need to make sure your environment is configured correctly. Typically, this includes the following:\n\nInstalling essential libraries and frameworks like TensorFlow, PyTorch, or Ultralytics.\n\nIf you are using a GPU, installing libraries like CUDA and cuDNN will help enable GPU acceleration and speed up the training process.\n\nThen, you can load your training and validation datasets into your environment. Normalize and preprocess the data through resizing, format conversion, or augmentation. With your model selected, configure the layers and specify hyperparameters. Compile the model by setting the loss function, optimizer, and performance metrics.\n\nLibraries like Ultralytics simplify the training process. You can start training by feeding data into the model with minimal code. These libraries handle weight adjustments, backpropagation, and validation automatically. They also offer tools to monitor progress and adjust hyperparameters easily. After training, save the model and its weights with a few commands.\n\nIt's important to keep in mind that proper dataset management is vital for efficient training. Use version control for datasets to track changes and ensure reproducibility. Tools like DVC (Data Version Control) can help manage large datasets.\n\nStep 5: Model Evaluation and Fine-Tuning\n\nIt's important to assess your model's performance using various metrics and refine it to improve accuracy. Evaluating helps identify areas where the model excels and where it may need improvement. Fine-tuning ensures the model is optimized for the best possible performance.\n\nPerformance Metrics: Use metrics like accuracy, precision, recall, and F1-score to evaluate your model's performance. These metrics provide insights into how well your model is making predictions.\n\nHyperparameter Tuning: Adjust hyperparameters to optimize model performance. Techniques like grid search or random search can help find the best hyperparameter values.\n\nFine-Tuning: Make small adjustments to the model architecture or training process to enhance performance. This might involve tweaking learning rates, batch sizes, or other model parameters.\n\nFor a deeper understanding of model evaluation and fine-tuning techniques, check out our model evaluation insights guide.\n\nStep 6: Model Testing\n\nModel testing confirms your model performs well on completely unseen data, verifying its readiness for deployment. The difference between model testing and model evaluation is that testing focuses on verifying the final model's performance rather than iteratively improving it.\n\nIt's important to thoroughly test and debug any common issues that may arise. Test your model on a separate test dataset that was not used during training or validation. This dataset should represent real-world scenarios to ensure the model's performance is consistent and reliable.\n\nAlso, address common problems such as overfitting, underfitting, and data leakage. Use techniques like cross-validation to identify these issues. For comprehensive testing strategies, refer to our model testing guide.\n\nStep 7: Model Deployment\n\nOnce your model has been thoroughly tested, it's time to deploy it. Model deployment involves making your model available for use in a production environment. Here are the steps to deploy a computer vision model:\n\nSetting Up the Environment: Configure the necessary infrastructure for your chosen deployment option, whether it's cloud-based (AWS, Google Cloud, Azure) or edge-based (local devices, IoT).\n\nExporting the Model: Export your model to the appropriate format (e.g., ONNX, TensorRT, CoreML for YOLO26) to ensure compatibility with your deployment platform.\n\nDeploying the Model: Deploy the model by setting up APIs or endpoints and integrating it with your application.\n\nEnsuring Scalability: Implement load balancers, auto-scaling groups, and monitoring tools to manage resources and handle increasing data and user requests.\n\nUltralytics Platform also provides managed deployment endpoints in 42 global regions with scale-to-zero by default, handling infrastructure setup automatically.\n\nStep 8: Monitoring, Maintenance, and Documentation\n\nOnce your model is deployed, it's important to continuously monitor its performance, maintain it to handle any issues, and document the entire process for future reference and improvements.\n\nMonitoring tools can help you track key performance indicators (KPIs) and detect anomalies or drops in accuracy. By monitoring the model, you can be aware of model drift, where the model's performance declines over time due to changes in the input data. Periodically retrain the model with updated data to maintain accuracy and relevance.\n\nIn addition to monitoring and maintenance, documentation is also key. Thoroughly document the entire process, including model architecture, training procedures, hyperparameters, data preprocessing steps, and any changes made during deployment and maintenance. Good documentation ensures reproducibility and makes future updates or troubleshooting easier. By effectively monitoring, maintaining, and documenting your model, you can ensure it remains accurate, reliable, and easy to manage over its lifecycle.\n\nEngaging with the Community\n\nConnecting with a community of computer vision enthusiasts can help you tackle any issues you face while working on your computer vision project with confidence. Here are some ways to learn, troubleshoot, and network effectively.\n\nCommunity Resources\n\nGitHub Issues: Check out the YOLO26 GitHub repository and use the Issues tab to ask questions, report bugs, and suggest new features. The active community and maintainers are there to help with specific issues.\n\nUltralytics Discord Server: Join the Ultralytics Discord server to interact with other users and developers, get support, and share insights.\n\nUsing these resources will help you overcome challenges and stay updated with the latest trends and best practices in the computer vision community.\n\nNext Steps\n\nYou now have a roadmap for every stage of a computer vision project, from defining goals to monitoring a deployed model. Put it into practice by training your first YOLO model, or dive deeper into any single stage through the guides linked above. To run the full pipeline without writing code, explore the Ultralytics Platform.",
+  "title": "Key Steps in a Computer Vision Project",
+  "tp": "粘贴",
+  "ts": 1793862157442,
+  "u": 1793873300342,
+  "words": [
+   {
+    "ex": "Researchers annotate each image with a short label.",
+    "grp": "数据处理",
+    "ipa": "/ˈænəteɪt/",
+    "pos": "v.",
+    "syn": [
+     "label",
+     "tag",
+     "mark up"
+    ],
+    "w": "annotate",
+    "zh": "注释;标注"
+   },
+   {
+    "ex": "She took a night job to augment her income.",
+    "grp": "数据处理",
+    "ipa": "/ɔːɡˈment/",
+    "pos": "v.",
+    "syn": [
+     "increase",
+     "expand",
+     "boost"
+    ],
+    "w": "augment",
+    "zh": "增加;扩充"
+   },
+   {
+    "ex": "The company needs a robust plan to survive the crisis.",
+    "grp": "性能质量",
+    "ipa": "/roʊˈbʌst/",
+    "pos": "adj.",
+    "syn": [
+     "strong",
+     "resilient",
+     "sturdy"
+    ],
+    "w": "robust",
+    "zh": "稳健的;强健的"
+   },
+   {
+    "ex": "The city will deploy more buses during rush hour.",
+    "grp": "项目流程",
+    "ipa": "/dɪˈplɔɪ/",
+    "pos": "v.",
+    "syn": [
+     "put into use",
+     "implement",
+     "roll out"
+    ],
+    "w": "deploy",
+    "zh": "部署;调配"
+   },
+   {
+    "ex": "Fast data retrieval saves staff a lot of time.",
+    "grp": "数据处理",
+    "ipa": "/rɪˈtriːvl/",
+    "pos": "n.",
+    "syn": [
+     "recovery",
+     "fetching",
+     "access"
+    ],
+    "w": "retrieval",
+    "zh": "检索;取回"
+   },
+   {
+    "ex": "Reproducibility is essential for reliable scientific research.",
+    "grp": "科研方法",
+    "ipa": "/ˌriːprəˌduːsəˈbɪləti/",
+    "pos": "n.",
+    "syn": [
+     "repeatability",
+     "replicability",
+     "consistency of results"
+    ],
+    "w": "reproducibility",
+    "zh": "可复现性"
+   },
+   {
+    "ex": "The team improved the design iteratively over several months.",
+    "grp": "项目流程",
+    "ipa": "/ˈɪtərətɪvli/",
+    "pos": "adv.",
+    "syn": [
+     "repeatedly",
+     "step by step",
+     "cyclically"
+    ],
+    "w": "iteratively",
+    "zh": "迭代地;反复地"
+   },
+   {
+    "ex": "Good teachers impart knowledge and inspire curiosity.",
+    "grp": "学习交流",
+    "ipa": "/ɪmˈpɑːrt/",
+    "pos": "v.",
+    "syn": [
+     "convey",
+     "pass on",
+     "transmit"
+    ],
+    "w": "impart",
+    "zh": "传授;赋予"
+   },
+   {
+    "ex": "Scalability is vital when a service gains millions of users.",
+    "grp": "系统部署",
+    "ipa": "/ˌskeɪləˈbɪləti/",
+    "pos": "n.",
+    "syn": [
+     "expandability",
+     "capacity to grow",
+     "flexibility"
+    ],
+    "w": "scalability",
+    "zh": "可扩展性"
+   },
+   {
+    "ex": "The ancient village has remained largely unaltered for centuries.",
+    "grp": "性能质量",
+    "ipa": "/ʌnˈɔːltərd/",
+    "pos": "adj.",
+    "syn": [
+     "unchanged",
+     "original",
+     "intact"
+    ],
+    "w": "unaltered",
+    "zh": "未改变的"
+   },
+   {
+    "ex": "Scientists continue to refine their methods.",
+    "grp": "项目流程",
+    "ipa": "/rɪˈfaɪn/",
+    "pos": "v.",
+    "syn": [
+     "improve",
+     "polish",
+     "fine-tune"
+    ],
+    "w": "refine",
+    "zh": "改进;精炼"
+   },
+   {
+    "ex": "Companies optimize their websites to attract more visitors.",
+    "grp": "性能质量",
+    "ipa": "/ˈɑːptəmaɪz/",
+    "pos": "v.",
+    "syn": [
+     "make the best of",
+     "maximize",
+     "streamline"
+    ],
+    "w": "optimize",
+    "zh": "优化"
+   },
+   {
+    "ex": "After training, you thoroughly evaluate and test your model to make sure it performs consistently under different conditions.",
+    "grp": "程度方式",
+    "ipa": "/ˈθɜroʊli/",
+    "pos": "adv.",
+    "syn": [
+     "comprehensively",
+     "completely",
+     "rigorously"
+    ],
+    "w": "thoroughly",
+    "zh": "彻底地;全面地"
+   },
+   {
+    "ex": "Finally, you deploy your model into the real world and monitor and maintain it based on new insights and feedback.",
+    "grp": "机器学习",
+    "ipa": "/ˈmɑːnɪtər/",
+    "pos": "v.",
+    "syn": [
+     "track",
+     "observe",
+     "oversee"
+    ],
+    "w": "monitor",
+    "zh": "监控;持续跟踪(模型运行状况)"
+   },
+   {
+    "ex": "Objective: To develop a tool that assists radiologists by providing precise, pixel-level outlines of tumors in medical imaging scans.",
+    "grp": "医学影像",
+    "ipa": "/ˌreɪdiˈɑlədʒɪst/",
+    "pos": "n.",
+    "syn": [
+     "imaging specialist",
+     "radiology physician",
+     "diagnostic imaging doctor"
+    ],
+    "w": "radiologist",
+    "zh": "放射科医生;影像科医师"
+   },
+   {
+    "ex": "Objective: To develop a tool that assists radiologists by providing precise, pixel-level outlines of tumors in medical imaging scans.",
+    "grp": "医学影像",
+    "ipa": "/ˈtuːmɚ/",
+    "pos": "n.",
+    "syn": [
+     "growth",
+     "neoplasm",
+     "lesion"
+    ],
+    "w": "tumor",
+    "zh": "肿瘤"
+   },
+   {
+    "ex": "This is especially true when it comes to computer vision because your project's objective will directly affect which computer vision task you need to focus on.",
+    "grp": "项目管理",
+    "ipa": "/əbˈdʒɛktɪv/",
+    "pos": "n.",
+    "syn": [
+     "goal",
+     "aim",
+     "purpose"
+    ],
+    "w": "objective",
+    "zh": "目标;目的"
+   },
+   {
+    "ex": "Choosing between training from scratch or using transfer learning affects how you prepare your data.",
+    "grp": "机器学习",
+    "ipa": "/frʌm skrætʃ/",
+    "pos": "phrase",
+    "syn": [
+     "from the ground up",
+     "from the beginning",
+     "anew"
+    ],
+    "w": "from scratch",
+    "zh": "从零开始;从头开始"
+   },
+   {
+    "ex": "Some libraries, like Ultralytics, provide built-in support for various datasets, making it easier to get started with high-quality data.",
+    "grp": "编程技术",
+    "ipa": "/ˌbɪltˈɪn/",
+    "pos": "adj.",
+    "syn": [
+     "integrated",
+     "inbuilt",
+     "native"
+    ],
+    "w": "built-in",
+    "zh": "内置的;自带的"
+   },
+   {
+    "ex": "Computer Vision Task: Image segmentation is suitable for medical imaging because it provides accurate and detailed boundaries of tumors that are crucial for assessing size, shape, and treatment planning.",
+    "grp": "医学影像",
+    "ipa": "/ˈkruːʃəl/",
+    "pos": "adj.",
+    "syn": [
+     "essential",
+     "vital",
+     "critical"
+    ],
+    "w": "crucial",
+    "zh": "至关重要的,关键的"
+   },
+   {
+    "ex": "Then, you collect and accurately label the images that will help train your model.",
+    "grp": "机器学习",
+    "ipa": "/ˈækjərətli/",
+    "pos": "adv.",
+    "syn": [
+     "precisely",
+     "correctly",
+     "exactly"
+    ],
+    "w": "accurately",
+    "zh": "准确地,精确地"
+   },
+   {
+    "ex": "It helps accurately assess how well the model generalizes to new, unseen data.",
+    "grp": "机器学习",
+    "ipa": "/ˈdʒɛnrəˌlaɪz/",
+    "pos": "v.",
+    "syn": [
+     "extrapolate",
+     "apply broadly",
+     "carry over"
+    ],
+    "w": "generalize",
+    "zh": "泛化;推广适用于(新数据)"
+   },
+   {
+    "ex": "It's important to keep in mind that proper dataset management is vital for efficient training.",
+    "grp": "重要程度",
+    "ipa": "/ˈvaɪtəl/",
+    "pos": "adj.",
+    "syn": [
+     "essential",
+     "crucial",
+     "critical"
+    ],
+    "w": "vital",
+    "zh": "至关重要的;必不可少的"
+   },
+   {
+    "ex": "Step 6: Model Testing\n\nModel testing confirms your model performs well on completely unseen data, verifying its readiness for deployment.",
+    "grp": "机器学习",
+    "ipa": "/ˈrɛdinəs/",
+    "pos": "n.",
+    "syn": [
+     "preparedness",
+     "fitness",
+     "preparation"
+    ],
+    "w": "readiness",
+    "zh": "就绪状态;准备就绪的程度"
+   },
+   {
+    "ex": "Validation Set: Usually around 10-15% of your data; this set is used to tune hyperparameters and validate the model during training, helping to prevent overfitting.",
+    "grp": "机器学习",
+    "ipa": "/ˌoʊvərˈfɪtɪŋ/",
+    "pos": "n.",
+    "syn": [
+     "over-training",
+     "excessive fitting",
+     "poor generalization"
+    ],
+    "w": "overfitting",
+    "zh": "过拟合(模型过度贴合训练数据,导致对新数据泛化能力差)"
+   },
+   {
+    "ex": "Use techniques like cross-validation to identify these issues.",
+    "grp": "机器学习",
+    "ipa": "/ˌkrɔs ˌvælɪˈdeɪʃən/",
+    "pos": "n.",
+    "syn": [
+     "rotation estimation",
+     "k-fold validation",
+     "out-of-sample testing"
+    ],
+    "w": "cross-validation",
+    "zh": "交叉验证(一种通过将数据多次划分为训练集和验证集来评估模型性能、发现过拟合等问题的方法)"
+   },
+   {
+    "ex": "By monitoring the model, you can be aware of model drift, where the model's performance declines over time due to changes in the input data.",
+    "grp": "机器学习",
+    "ipa": "/drɪft/",
+    "pos": "n.",
+    "syn": [
+     "deviation",
+     "shift",
+     "gradual change"
+    ],
+    "w": "drift",
+    "zh": "漂移;(模型)性能随数据变化而逐渐退化"
+   },
+   {
+    "ex": "Periodically retrain the model with updated data to maintain accuracy and relevance.",
+    "grp": "机器学习",
+    "ipa": "/ˌpɪriˈɑdɪkli/",
+    "pos": "adv.",
+    "syn": [
+     "regularly",
+     "at intervals",
+     "from time to time"
+    ],
+    "w": "periodically",
+    "zh": "定期地;周期性地"
+   },
+   {
+    "ex": "Engaging with the Community\n\nConnecting with a community of computer vision enthusiasts can help you tackle any issues you face while working on your computer vision project with confidence.",
+    "grp": "人物称谓",
+    "ipa": "/ɪnˈθuziˌæst/",
+    "pos": "n.",
+    "syn": [
+     "fan",
+     "aficionado",
+     "devotee"
+    ],
+    "w": "enthusiast",
+    "zh": "爱好者;热衷者"
+   },
+   {
+    "ex": "Good documentation ensures reproducibility and makes future updates or troubleshooting easier.",
+    "grp": "技术运维",
+    "ipa": "/ˈtrʌbəlˌʃut/",
+    "pos": "v.",
+    "syn": [
+     "diagnose",
+     "debug",
+     "resolve"
+    ],
+    "w": "troubleshoot",
+    "zh": "排查并解决故障;故障排除"
+   },
+   {
+    "ex": "Ultralytics Discord Server: Join the Ultralytics Discord server to interact with other users and developers, get support, and share insights.",
+    "grp": "网络平台",
+    "ipa": "/ˈdɪskɔːrd/",
+    "pos": "n.",
+    "syn": [
+     "chat platform",
+     "messaging app",
+     "online community"
+    ],
+    "w": "Discord",
+    "zh": "Discord(一款即时通讯与社区聊天平台)"
+   },
+   {
+    "ex": "Next Steps\n\nYou now have a roadmap for every stage of a computer vision project, from defining goals to monitoring a deployed model.",
+    "grp": "项目管理",
+    "ipa": "/ˈroʊdmæp/",
+    "pos": "n.",
+    "syn": [
+     "plan",
+     "blueprint",
+     "guide"
+    ],
+    "w": "roadmap",
+    "zh": "路线图;行动指南"
+   }
+  ],
+  "zh": "计算机视觉项目的建设意味着要经历一系列清晰的阶段:确定目标、收集并标注数据、训练并评估模型,以及在生产环境中部署并维护模型。本指南按顺序讲解每一步,并解释其重要性,让你能够有信心地规划和运行自己的项目。\n\n计算机视觉是人工智能(AI)的一个子领域,帮助计算机像人类一样看见并理解世界。它处理和分析图像或视频,以提取信息、识别模式,并基于这些数据做出决策。\n\n目标检测、图像分类和实例分割等计算机视觉技术可应用于从自动驾驶到医学影像的各个行业,从而获得有价值的洞见。\n\n计算机视觉项目概览\n\n在讨论计算机视觉项目每个步骤的细节之前,先来看看整体流程。如果你今天开始一个计算机视觉项目,你会采取以下步骤:\n\n你的首要任务是了解项目的需求。\n\n然后,收集并准确标注有助于训练模型的图像。\n\n接着,清洗并扩充数据,为模型训练做好准备。\n\n训练之后,对模型进行全面的评估和测试,确保它在不同条件下表现稳定。\n\n最后,将模型部署到现实世界,并根据新的洞见和反馈对其进行监控和维护。\n\n既然你已经知道了会发生什么,下面的章节将详细介绍每一步。\n\n第1步:确定项目目标\n\n任何计算机视觉项目的第一步都是明确界定你要解决的问题。了解最终目标有助于你着手构建解决方案。对计算机视觉而言尤其如此,因为项目目标将直接影响你需要关注哪种计算机视觉任务。\n\n以下是一些项目目标以及可用于实现这些目标的计算机视觉任务示例:\n\n目标:开发一个能监控和管理高速公路上不同类型车辆流量的系统,改善交通管理和安全。\n\n计算机视觉任务:目标检测非常适合交通监控,因为它能高效地定位并识别多辆车。它对计算量的要求低于图像分割,而图像分割对这项任务来说提供了不必要的细节,因此目标检测能确保更快的实时分析。\n\n目标:开发一个工具,通过在医学影像扫描中提供精确的像素级肿瘤轮廓来协助放射科医生。\n\n计算机视觉任务:图像分割适用于医学影像,因为它能提供准确而详细的肿瘤边界,这对评估肿瘤大小、形状和制定治疗方案至关重要。\n\n目标:创建一个数字系统,对各类文件(如发票、收据、法律文书)进行分类,以提高组织效率和文件检索能力。\n\n计算机视觉任务:图像分类在这里非常理想,因为它一次处理一份文件,无需考虑文件在图像中的位置。这种方法简化并加快了分类过程。\n\n选择合适的模型和训练方式\n\n在了解了项目目标和合适的计算机视觉任务之后,确定项目目标的一个重要部分是选择合适的模型和训练方式。\n\n根据目标不同,你可以先选择模型,也可以在看到第2步中能收集到哪些数据之后再选。例如,假设你的项目高度依赖特定类型数据的可得性,那么先收集和分析数据、再选择模型可能更实际。另一方面,如果你对模型要求有清晰的了解,可以先选模型,再收集符合这些规格的数据。\n\n在从头训练和使用迁移学习之间做选择,会影响你准备数据的方式。从头训练需要多样化的数据集,从零开始建立模型的理解能力。而迁移学习则允许你使用预训练模型,并用较小、更具体的数据集对其进行调整。此外,选择训练哪个具体模型,也将决定你需要如何准备数据,例如根据模型的具体要求调整图像大小或添加标注。\n\n选择模型时要考虑部署\n\n要考虑模型的部署目标,以确保兼容性和性能。例如,轻量级模型在资源受限的设备上效率高,因此非常适合边缘计算。\n\n想了解更多,请阅读我们关于确定项目目标和选择合适模型的指南。\n\n在着手计算机视觉项目的实际工作之前,清楚理解这些细节很重要。在进入第2步之前,请再次确认你已考虑以下内容:\n\n明确界定你要解决的问题。\n\n确定项目的最终目标。\n\n确定所需的具体计算机视觉任务(如目标检测、图像分类、图像分割)。\n\n决定是从头训练模型还是使用迁移学习。\n\n根据任务和部署需求选择合适的模型。\n\n第2步:数据收集与数据标注\n\n计算机视觉模型的质量取决于数据集的质量。你可以从互联网上收集图像、自己拍照,或使用现有数据集。有用的公共数据集来源包括Google数据集搜索引擎、加州大学尔湾分校机器学习资料库和Kaggle数据集。\n\n一些库(如Ultralytics)为各种数据集提供内置支持,让你更容易上手高质量数据。这些库通常包含用于下载和加载常用数据集的工具,可在项目初期为你节省大量时间和精力。\n\n不过,如果你选择自己收集图像或拍照,就需要对数据进行标注。数据标注是给数据打标签,以便向模型传授知识的过程。你要进行的数据标注类型取决于你所用的具体计算机视觉技术。以下是一些例子:\n\n图像分类:你会把整幅图像标注为单一类别。\n\n目标检测:你会在图像中每个物体周围画出边界框,并给每个框打标签。\n\n图像分割:你会根据像素所属的物体为图像中的每个像素打标签,从而生成详细的物体边界。\n\n数据收集和标注可能是一项耗时的手工工作。专用的标注工具可以加快速度:Ultralytics Platform提供内置的标注编辑器,带有基于SAM的智能标注功能,可用于检测、分割和OBB数据,并直接以YOLO格式保存标签。\n\n第3步:数据增强与数据集划分\n\n在收集并标注完图像数据后,重要的是先将数据集划分为训练集、验证集和测试集,然后再进行数据增强。在增强之前划分数据集,对于在原始、未被改动的数据上测试和验证模型至关重要。这有助于准确评估模型对新的、未见过的数据的泛化能力。\n\n数据划分方法如下:\n\n训练集:这是数据中最大的部分,通常占总量的70-80%,用于训练模型。\n\n验证集:通常占数据的10-15%左右;该集合用于调整超参数并在训练期间验证模型,有助于防止过拟合。\n\n测试集:其余10-15%的数据留作测试集。它用于在训练完成后评估模型在未见数据上的表现。\n\n划分数据之后,你可以通过旋转、缩放和翻转图像等变换来进行数据增强,从而人为地增加数据集的规模。数据增强使你的模型对各种变化更加稳健,并提升其在未见图像上的表现。\n\nOpenCV、Albumentations和TensorFlow等库提供了灵活的增强函数供你使用。此外,一些库(如Ultralytics)在其模型训练函数中直接内置了增强设置,从而简化了流程。\n\n为了更好地了解你的数据,可以使用Matplotlib或Seaborn等工具将图像可视化,并分析其分布和特征。数据可视化有助于发现模式、异常以及增强技术的效果。Ultralytics Platform的图表选项卡可以自动为每个上传的数据集生成划分分布、类别计数、图像尺寸直方图和标注位置热力图,无需任何代码即可呈现其中许多洞见。\n\n通过恰当地理解、划分和增强数据,你可以开发出经过良好训练、验证和测试的模型,使其在实际应用中表现出色。\n\n第4步:模型训练\n\n数据集准备好用于训练后,你就可以专注于搭建必要的环境、管理数据集并训练模型。\n\n首先,你需要确保环境配置正确。通常包括以下内容:\n\n安装TensorFlow、PyTorch或Ultralytics等必要的库和框架。\n\n如果你使用GPU,安装CUDA和cuDNN等库将有助于启用GPU加速并加快训练过程。\n\n然后,你可以把训练和验证数据集加载到环境中。通过调整大小、格式转换或增强来对数据进行归一化和预处理。选定模型后,配置各层并指定超参数。通过设置损失函数、优化器和性能指标来编译模型。\n\nUltralytics等库简化了训练过程。你只需很少的代码,把数据输入模型即可开始训练。这些库会自动处理权重调整、反向传播和验证。它们还提供工具,方便你监控进度并调整超参数。训练结束后,只需几条命令即可保存模型及其权重。\n\n要记住,恰当的数据集管理对高效训练至关重要。对数据集使用版本控制,以追踪变更并确保可复现性。DVC(数据版本控制)等工具可以帮助管理大型数据集。\n\n第5步:模型评估与微调\n\n使用各种指标评估模型的性能并加以改进以提高准确率,这一点很重要。评估有助于找出模型的优势所在以及可能需要改进的地方。微调确保模型被优化到可能的最佳性能。\n\n性能指标:使用准确率、精确率、召回率和F1分数等指标来评估模型的性能。这些指标能让你深入了解模型的预测效果。\n\n超参数调优:调整超参数以优化模型性能。网格搜索或随机搜索等技术有助于找到最佳的超参数值。\n\n微调:对模型架构或训练过程做出小幅调整以提升性能。这可能涉及调整学习率、批量大小或其他模型参数。\n\n如需更深入地了解模型评估和微调技术,请查看我们的模型评估洞见指南。\n\n第6步:模型测试\n\n模型测试确认你的模型在完全未见过的数据上表现良好,验证其是否已准备好部署。模型测试与模型评估的区别在于,测试侧重于验证最终模型的性能,而不是反复迭代地改进它。\n\n彻底测试并调试可能出现的各种常见问题很重要。请在一个单独的测试数据集上测试模型,该数据集在训练或验证期间未被使用过。这个数据集应当代表真实场景,以确保模型的性能稳定可靠。\n\n同时,要解决过拟合、欠拟合和数据泄漏等常见问题。使用交叉验证等技术来发现这些问题。有关全面的测试策略,请参阅我们的模型测试指南。\n\n第7步:模型部署\n\n模型经过彻底测试后,就该部署了。模型部署指的是让你的模型可在生产环境中使用。以下是部署计算机视觉模型的步骤:\n\n设置环境:为你选定的部署方案配置必要的基础设施,无论是基于云(AWS、Google Cloud、Azure)还是基于边缘(本地设备、物联网)。\n\n导出模型:将模型导出为合适的格式(例如针对YOLO26的ONNX、TensorRT、CoreML),以确保与你的部署平台兼容。\n\n部署模型:通过设置API或端点并将其与你的应用集成来部署模型。\n\n确保可扩展性:实施负载均衡器、自动扩缩容组和监控工具,以管理资源并应对不断增长的数据和用户请求。\n\nUltralytics Platform还在全球42个区域提供托管的部署端点,默认支持缩容到零,并自动处理基础设施的搭建。\n\n第8步:监控、维护与文档\n\n模型部署后,持续监控其性能、对其进行维护以处理任何问题,并将整个过程记录成文档以供日后参考和改进,这一点很重要。\n\n监控工具可以帮助你追踪关键绩效指标(KPI),并发现异常或准确率下降。通过监控模型,你可以察觉模型漂移,即由于输入数据变化而导致模型性能随时间下降的现象。定期用更新的数据重新训练模型,以保持准确性和相关性。\n\n除了监控和维护之外,文档也同样关键。要全面记录整个过程,包括模型架构、训练流程、超参数、数据预处理步骤,以及部署和维护期间所做的任何更改。良好的文档能确保可复现性,并使今后的更新或故障排查更容易。通过有效地监控、维护并记录你的模型,你可以确保它在整个生命周期内保持准确、可靠且易于管理。\n\n参与社区\n\n与计算机视觉爱好者社区建立联系,可以帮助你有信心地解决在做计算机视觉项目时遇到的任何问题。以下是一些有效学习、排查问题和建立人脉的方式。\n\n社区资源\n\nGitHub Issues:查看YOLO26的GitHub仓库,并使用Issues选项卡提问、报告漏洞和建议新功能。活跃的社区和维护者会帮助解决具体问题。\n\nUltralytics Discord服务器:加入Ultralytics的Discord服务器,与其他用户和开发者交流、获得支持并分享见解。\n\n利用这些资源将帮助你克服挑战,并了解计算机视觉社区的最新趋势和最佳实践。\n\n后续步骤\n\n你现在已经拥有了计算机视觉项目各个阶段的路线图,从确定目标到监控已部署的模型。你可以通过训练你的第一个YOLO模型来付诸实践,或通过上文链接的指南深入了解任何单一阶段。若想无需编写代码就运行完整流程,请探索Ultralytics Platform。"
+ },
+ {
+  "lv": "原文",
+  "text": "# Tips for Best YOLOv5 Training Results\n\nThis guide explains how to produce the best mAP and training results with YOLOv5.\n\nMost of the time, good results can be obtained with no changes to the models or training settings, **provided your dataset is sufficiently large and well labeled**. If at first you don't get good results, there are steps you might be able to take to improve, but we always recommend users **first train with all default settings** before considering any changes. This helps establish a performance baseline and spot areas for improvement.\n\nIf you have questions about your training results, **provide as much information as possible** to get a helpful response, including results plots (train losses, val losses, P, R, mAP), PR curve, confusion matrix, training mosaics, test results and dataset statistics images such as labels.png. All of these are located in your `project/name` directory, typically `yolov5/runs/train/exp`.\n\nThe sections below cover the main factors that affect YOLOv5 training results.\n\n## Dataset\n\n- **Images per class.** ≥ 1500 images per class recommended\n- **Instances per class.** ≥ 10000 instances (labeled objects) per class recommended\n- **Image variety.** Must be representative of deployed environment. For real-world use cases we recommend images from different times of day, different seasons, different weather, different lighting, different angles, different sources (scraped online, collected locally, different cameras) etc.\n- **Label consistency.** All instances of all classes in all images must be labeled. Partial labeling will not work.\n- **Label accuracy.** Labels must closely enclose each object. No space should exist between an object and its bounding box. No objects should be missing a label.\n- **Train/val split discipline.** Ensure that validation and test images never appear in the training set to avoid overly optimistic metrics. Keep class distributions similar between the splits.\n- **Label verification.** View the `train_batch*.jpg` mosaics on train start to verify your labels appear correct.\n- **Background images.** Background images are images with no objects that are added to a dataset to reduce False Positives (FP). We recommend about 0-10% background images to help reduce FPs (COCO has 1000 background images for reference, 1% of the total). No labels are required for background images.\n\n## Model Selection\n\nLarger models like YOLOv5x and YOLOv5x6 will produce better results in nearly all cases, but have more parameters, require more CUDA memory to train, and are slower to run. For **mobile** deployments we recommend YOLOv5s/m, for **cloud** deployments we recommend YOLOv5l/x.\n\n- **Start from Pretrained weights.** Recommended for small to medium-sized datasets (e.g. VOC, VisDrone, GlobalWheat). Pass the name of the model to the `--weights` argument. Models download automatically from the latest YOLOv5 release.\n\n    ```bash\n    python train.py --data custom.yaml --weights yolov5s.pt\n    python train.py --data custom.yaml --weights yolov5m.pt\n    python train.py --data custom.yaml --weights yolov5l.pt\n    python train.py --data custom.yaml --weights yolov5x.pt\n    python train.py --data custom.yaml --weights custom_pretrained.pt\n    ```\n\n- **Start from Scratch.** Recommended for large datasets (e.g. COCO, Objects365, OIv6). Pass the model architecture YAML you are interested in, along with an empty `--weights ''` argument:\n\n    ```bash\n    python train.py --data custom.yaml --weights '' --cfg yolov5s.yaml\n    python train.py --data custom.yaml --weights '' --cfg yolov5m.yaml\n    python train.py --data custom.yaml --weights '' --cfg yolov5l.yaml\n    python train.py --data custom.yaml --weights '' --cfg yolov5x.yaml\n    ```\n\n## Training Settings\n\nBefore modifying anything, **first train with default settings to establish a performance baseline**. A full list of train.py settings can be found in the train.py argparser.\n\n- **Epochs.** Start with 300 epochs. If this overfits early then you can reduce epochs. If overfitting does not occur after 300 epochs, train longer, e.g. 600 or 1200 epochs.\n- **Image size.** COCO trains at native resolution of `--img 640`, though due to the large number of small objects in the dataset it can benefit from training at higher resolutions such as `--img 1280`. If there are many small objects then custom datasets will benefit from training at native or higher resolution. Best inference results are obtained at the same `--img` as the training was run at, e.g. if you train at `--img 1280` you should also test and detect at `--img 1280`.\n- **Batch size.** Use the largest `--batch-size` that your hardware allows for. Small batch sizes produce poor batch normalization statistics and should be avoided. You can use `--batch-size -1` to automatically select the optimal batch size for your GPU.\n- **Learning rate.** The default learning rate schedule works well in most cases. For faster convergence, you can try using the `--cos-lr` flag to enable cosine learning rate scheduling, which gradually reduces the learning rate following a cosine curve over epochs.\n- **Data augmentation.** YOLOv5 includes various augmentation techniques like mosaic, which combines multiple training images. Adjust augmentation strength via the `mosaic` hyperparameter in your `--hyp` file to help stabilize training.\n- **Hyperparameters.** Default hyperparameters are in hyp.scratch-low.yaml. We recommend you train with default hyperparameters first before thinking of modifying any. In general, increasing augmentation hyperparameters will reduce and delay overfitting, allowing for longer trainings and higher final mAP. Reduction in loss component gain hyperparameters like `hyp['obj']` will help reduce overfitting in those specific loss components. For an automated method of optimizing these hyperparameters, see our Hyperparameter Evolution Tutorial.\n- **Mixed precision training.** YOLOv5 enables Automatic Mixed Precision (AMP) automatically when a supported GPU is detected, speeding up training and reducing memory usage without sacrificing model accuracy.\n- **Multi-GPU training.** If you have multiple GPUs, launch DistributedDataParallel training with `python -m torch.distributed.run --nproc_per_node 4 train.py ... --device 0,1,2,3`, which can significantly reduce training time.\n- **Early stopping.** Use `--patience 50` to stop training if validation metrics don't improve for 50 epochs, saving time and preventing overfitting.\n\n## Advanced Optimization Techniques\n\n- **Transfer learning.** For specialized datasets, start with pretrained weights and optionally freeze layers with `--freeze` to adapt the model to your specific task.\n- **Model pruning.** After training, consider pruning your model to zero out redundant weights with little loss in accuracy, then deploy it with a sparsity-aware runtime to realize speedups.\n- **Model ensemble.** For critical applications, train multiple models with different configurations and ensemble their predictions for improved accuracy.\n- **Test-time augmentation.** Enable TTA during inference with `--augment` to improve prediction accuracy by merging predictions from flipped and rescaled versions of the input image.\n\n## Further Reading\n\nIf you'd like to know more, a good place to start is Karpathy's A Recipe for Training Neural Networks, which has ideas for training that apply broadly across all ML domains.\n\nGood luck, and let us know if you have any other questions.\n\n## FAQ\n\n### How do I know if my model is overfitting?\n\nYour model may be overfitting if the training loss continues to decrease while validation loss starts to increase. Monitor the validation mAP - if it plateaus or decreases while training loss keeps improving, that's a sign of overfitting. Solutions include adding more training data, increasing data augmentation, or applying regularization techniques.\n\n### What's the optimal batch size for training YOLOv5?\n\nThe optimal batch size depends on your GPU memory. Larger batch sizes generally provide better batch normalization statistics and training stability. Use the largest batch size your hardware can handle without running out of memory. You can use `--batch-size -1` to automatically determine the optimal batch size for your setup.\n\n### How can I speed up YOLOv5 training?\n\nTo speed up training, try: using multiple GPUs with DDP, caching your dataset with `--cache`, and optimizing your batch size (mixed precision is enabled automatically on supported GPUs). Also consider using a smaller model variant like YOLOv5s if absolute accuracy isn't critical.",
+  "title": "Tips for Best YOLOv5 Training Results",
+  "tp": "粘贴",
+  "ts": 1793843748633,
+  "words": [
+   {
+    "ex": "We used last year's results as a baseline for comparison.",
+    "grp": "研究方法",
+    "ipa": "/ˈbeɪslaɪn/",
+    "pos": "n.",
+    "syn": [
+     "benchmark",
+     "reference point",
+     "starting standard"
+    ],
+    "w": "baseline",
+    "zh": "基线;基准"
+   },
+   {
+    "ex": "The sample must be representative of the whole population.",
+    "grp": "研究方法",
+    "ipa": "/ˌrɛprɪˈzɛntətɪv/",
+    "pos": "adj.",
+    "syn": [
+     "typical",
+     "characteristic",
+     "illustrative"
+    ],
+    "w": "representative",
+    "zh": "有代表性的"
+   },
+   {
+    "ex": "Consistency in data collection is essential for reliable results.",
+    "grp": "研究方法",
+    "ipa": "/kənˈsɪstənsi/",
+    "pos": "n.",
+    "syn": [
+     "uniformity",
+     "coherence",
+     "regularity"
+    ],
+    "w": "consistency",
+    "zh": "一致性"
+   },
+   {
+    "ex": "Strict discipline in experiments prevents biased outcomes.",
+    "grp": "研究方法",
+    "ipa": "/ˈdɪsəplɪn/",
+    "pos": "n.",
+    "syn": [
+     "rigor",
+     "strict control",
+     "self-control"
+    ],
+    "w": "discipline",
+    "zh": "规范;自律;学科"
+   },
+   {
+    "ex": "The forecast was overly optimistic about economic growth.",
+    "grp": "评价判断",
+    "ipa": "/ˌɑːptəˈmɪstɪk/",
+    "pos": "adj.",
+    "syn": [
+     "hopeful",
+     "positive",
+     "overconfident"
+    ],
+    "w": "optimistic",
+    "zh": "过于乐观的;乐观的"
+   },
+   {
+    "ex": "A high wall encloses the garden.",
+    "grp": "空间描述",
+    "ipa": "/ɪnˈkloʊz/",
+    "pos": "v.",
+    "syn": [
+     "surround",
+     "encircle",
+     "wrap around"
+    ],
+    "w": "enclose",
+    "zh": "包围;围住"
+   },
+   {
+    "ex": "The deployment of new technology took several months.",
+    "grp": "技术应用",
+    "ipa": "/dɪˈplɔɪmənt/",
+    "pos": "n.",
+    "syn": [
+     "implementation",
+     "rollout",
+     "installation"
+    ],
+    "w": "deployment",
+    "zh": "部署;投入使用"
+   },
+   {
+    "ex": "The convergence of the two methods surprised researchers.",
+    "grp": "技术应用",
+    "ipa": "/kənˈvɜːrdʒəns/",
+    "pos": "n.",
+    "syn": [
+     "coming together",
+     "merging",
+     "meeting point"
+    ],
+    "w": "convergence",
+    "zh": "收敛;趋同"
+   },
+   {
+    "ex": "Prices gradually fell over the decade.",
+    "grp": "变化趋势",
+    "ipa": "/ˈɡrædʒuəli/",
+    "pos": "adv.",
+    "syn": [
+     "step by step",
+     "slowly",
+     "progressively"
+    ],
+    "w": "gradually",
+    "zh": "逐渐地"
+   },
+   {
+    "ex": "The government acted to stabilize the currency.",
+    "grp": "变化趋势",
+    "ipa": "/ˈsteɪbəlaɪz/",
+    "pos": "v.",
+    "syn": [
+     "steady",
+     "make steady",
+     "balance"
+    ],
+    "w": "stabilize",
+    "zh": "使稳定"
+   },
+   {
+    "ex": "Many redundant steps were removed from the process.",
+    "grp": "评价判断",
+    "ipa": "/rɪˈdʌndənt/",
+    "pos": "adj.",
+    "syn": [
+     "unnecessary",
+     "superfluous",
+     "surplus"
+    ],
+    "w": "redundant",
+    "zh": "多余的;冗余的"
+   },
+   {
+    "ex": "Sales plateaued after the initial surge.",
+    "grp": "变化趋势",
+    "ipa": "/plæˈtoʊ/",
+    "pos": "v.",
+    "syn": [
+     "level off",
+     "stabilize",
+     "stop rising"
+    ],
+    "w": "plateau",
+    "zh": "趋于平稳;停滞"
+   },
+   {
+    "ex": "Don't sacrifice quality for speed.",
+    "grp": "评价判断",
+    "ipa": "/ˈsækrəfaɪs/",
+    "pos": "v.",
+    "syn": [
+     "give up",
+     "forgo",
+     "compromise"
+    ],
+    "w": "sacrifice",
+    "zh": "牺牲;放弃"
+   },
+   {
+    "ex": "Early diagnosis is critical for successful treatment.",
+    "grp": "评价判断",
+    "ipa": "/ˈkrɪtɪkəl/",
+    "pos": "adj.",
+    "syn": [
+     "crucial",
+     "vital",
+     "essential"
+    ],
+    "w": "critical",
+    "zh": "关键的;至关重要的"
+   },
+   {
+    "ex": "The job requires specialized knowledge of medicine.",
+    "grp": "技术应用",
+    "ipa": "/ˈspɛʃəlaɪzd/",
+    "pos": "adj.",
+    "syn": [
+     "specific",
+     "tailored",
+     "expert"
+    ],
+    "w": "specialized",
+    "zh": "专门的;专业化的"
+   }
+  ],
+  "zh": "获得最佳 YOLOv5 训练效果的技巧\n\n本指南介绍如何使用 YOLOv5 获得最佳的 mAP 和训练结果。\n\n大多数情况下,只要**数据集足够大且标注良好**,无需改动模型或训练设置就能获得不错的结果。如果一开始效果不理想,你可以采取一些步骤来改进,但我们始终建议用户在考虑任何改动之前,**先使用全部默认设置进行训练**。这有助于建立性能基线,并发现可以改进的地方。\n\n如果你对训练结果有疑问,请**尽可能提供更多信息**以获得有帮助的回复,包括结果图(训练损失、验证损失、P、R、mAP)、PR 曲线、混淆矩阵、训练拼接图、测试结果以及 labels.png 等数据集统计图像。所有这些文件都位于你的 `project/name` 目录中,通常是 `yolov5/runs/train/exp`。\n\n下面各节介绍影响 YOLOv5 训练结果的主要因素。\n\n数据集\n\n- **每类图像数。** 建议每类不少于 1500 张图像\n- **每类实例数。** 建议每类不少于 10000 个实例(已标注的目标)\n- **图像多样性。** 必须能代表实际部署环境。对于真实应用场景,我们建议使用来自不同时间段、不同季节、不同天气、不同光照、不同角度、不同来源(网络抓取、本地采集、不同相机)等的图像。\n- **标注一致性。** 所有图像中所有类别的全部实例都必须被标注。部分标注行不通。\n- **标注准确性。** 标注必须紧密包围每个目标。目标与其边界框之间不应留有空隙。不应有任何目标缺少标注。\n- **训练/验证划分规范。** 确保验证集和测试集图像绝不出现在训练集中,以避免指标过于乐观。让各个划分之间的类别分布保持相近。\n- **标注核查。** 训练开始时查看 `train_batch*.jpg` 拼接图,以确认你的标注看起来正确。\n- **背景图像。** 背景图像是不含任何目标的图像,加入数据集中用于减少误报(FP)。我们建议加入约 0-10% 的背景图像以帮助减少误报(作为参考,COCO 有 1000 张背景图像,占总量的 1%)。背景图像不需要标注。\n\n模型选择\n\n像 YOLOv5x 和 YOLOv5x6 这样较大的模型在几乎所有情况下都会产生更好的结果,但参数更多,训练时需要更多 CUDA 内存,运行速度也更慢。对于**移动端**部署,我们推荐 YOLOv5s/m;对于**云端**部署,我们推荐 YOLOv5l/x。\n\n- **从预训练权重开始。** 推荐用于中小型数据集(如 VOC、VisDrone、GlobalWheat)。将模型名称传给 `--weights` 参数。模型会从最新的 YOLOv5 版本中自动下载。\n\n    (代码块)\n\n- **从零开始训练。** 推荐用于大型数据集(如 COCO、Objects365、OIv6)。传入你感兴趣的模型架构 YAML 文件,并搭配一个空的 `--weights ''` 参数:\n\n    (代码块)\n\n训练设置\n\n在修改任何内容之前,**先用默认设置训练以建立性能基线**。完整的 train.py 设置列表可以在 train.py 的参数解析器中找到。\n\n- **训练轮数。** 从 300 轮开始。如果过早出现过拟合,可以减少轮数。如果 300 轮后没有出现过拟合,则训练更久,例如 600 或 1200 轮。\n- **图像尺寸。** COCO 以 `--img 640` 的原生分辨率训练,但由于数据集中小目标很多,用 `--img 1280` 等更高分辨率训练可能更有益。如果有很多小目标,自定义数据集在原生或更高分辨率下训练会受益。最佳推理结果是在与训练相同的 `--img` 下获得的,例如如果你以 `--img 1280` 训练,也应以 `--img 1280` 进行测试和检测。\n- **批大小。** 使用硬件允许的最大 `--batch-size`。小批大小会产生较差的批归一化统计量,应当避免。你可以使用 `--batch-size -1` 为你的 GPU 自动选择最优批大小。\n- **学习率。** 默认的学习率调度在大多数情况下效果良好。为了更快收敛,可以尝试使用 `--cos-lr` 标志启用余弦学习率调度,它会在各轮次中按余弦曲线逐渐降低学习率。\n- **数据增强。** YOLOv5 包含多种增强技术,例如 mosaic,它将多张训练图像合并在一起。通过 `--hyp` 文件中的 `mosaic` 超参数调整增强强度,有助于稳定训练。\n- **超参数。** 默认超参数在 hyp.scratch-low.yaml 中。我们建议你先用默认超参数训练,再考虑修改。一般来说,增大增强类超参数会减轻并推迟过拟合,从而允许更长时间的训练和更高的最终 mAP。降低 `hyp['obj']` 等损失分量增益超参数,有助于减轻这些特定损失分量的过拟合。如需自动优化这些超参数的方法,请参阅我们的超参数进化教程。\n- **混合精度训练。** 当检测到受支持的 GPU 时,YOLOv5 会自动启用自动混合精度(AMP),在不牺牲模型精度的前提下加快训练并减少内存占用。\n- **多 GPU 训练。** 如果你有多块 GPU,可以使用 `python -m torch.distributed.run --nproc_per_node 4 train.py ... --device 0,1,2,3` 启动分布式数据并行训练,这能显著缩短训练时间。\n- **提前停止。** 使用 `--patience 50`,当验证指标在 50 轮内没有改善时停止训练,既节省时间又防止过拟合。\n\n高级优化技术\n\n- **迁移学习。** 对于专门的数据集,从预训练权重开始,并可选择用 `--freeze` 冻结部分层,使模型适应你的具体任务。\n- **模型剪枝。** 训练完成后,可以考虑对模型进行剪枝,将冗余权重置零而几乎不损失精度,然后使用支持稀疏性的运行时进行部署以实现加速。\n- **模型集成。** 对于关键应用,用不同配置训练多个模型,并集成它们的预测结果以提高精度。\n- **测试时增强。** 在推理时使用 `--augment` 启用 TTA,通过合并输入图像的翻转和缩放版本的预测结果来提高预测精度。\n\n延伸阅读\n\n如果你想了解更多,一个好的起点是 Karpathy 的《训练神经网络的秘诀》,其中的训练思路广泛适用于所有机器学习领域。\n\n祝你好运,如果还有其他问题,请告诉我们。\n\n常见问题\n\n如何判断我的模型是否过拟合?\n\n如果训练损失持续下降而验证损失开始上升,你的模型可能出现了过拟合。监控验证 mAP——如果它趋于平稳或下降,而训练损失仍在改善,就是过拟合的迹象。解决办法包括增加训练数据、加强数据增强或应用正则化技术。\n\n训练 YOLOv5 的最优批大小是多少?\n\n最优批大小取决于你的 GPU 内存。较大的批大小通常能提供更好的批归一化统计量和训练稳定性。使用你的硬件在不耗尽内存的情况下能处理的最大批大小。你可以使用 `--batch-size -1` 为你的配置自动确定最优批大小。\n\n如何加快 YOLOv5 的训练速度?\n\n要加快训练,可以尝试:使用 DDP 进行多 GPU 训练、用 `--cache` 缓存数据集,以及优化批大小(在受支持的 GPU 上会自动启用混合精度)。如果绝对精度并不关键,也可以考虑使用 YOLOv5s 等较小的模型变体。"
+ },
+ {
+  "lv": "原文",
+  "text": "# Karpathy Guidelines\n\nBehavioral guidelines to reduce common LLM coding mistakes, derived from Andrej Karpathy's observations on LLM coding pitfalls.\n\n**Tradeoff:** These guidelines bias toward caution over speed. For trivial tasks, use judgment.\n\n## 1. Think Before Coding\n\n**Don't assume. Don't hide confusion. Surface tradeoffs.**\n\nBefore implementing:\n- State your assumptions explicitly. If uncertain, ask.\n- If multiple interpretations exist, present them - don't pick silently.\n- If a simpler approach exists, say so. Push back when warranted.\n- If something is unclear, stop. Name what's confusing. Ask.\n\n## 2. Simplicity First\n\n**Minimum code that solves the problem. Nothing speculative.**\n\n- No features beyond what was asked.\n- No abstractions for single-use code.\n- No \"flexibility\" or \"configurability\" that wasn't requested.\n- No error handling for impossible scenarios.\n- If you write 200 lines and it could be 50, rewrite it.\n\nAsk yourself: \"Would a senior engineer say this is overcomplicated?\" If yes, simplify.\n\n## 3. Surgical Changes\n\n**Touch only what you must. Clean up only your own mess.**\n\nWhen editing existing code:\n- Don't \"improve\" adjacent code, comments, or formatting.\n- Don't refactor things that aren't broken.\n- Match existing style, even if you'd do it differently.\n- If you notice unrelated dead code, mention it - don't delete it.\n\nWhen your changes create orphans:\n- Remove imports/variables/functions that YOUR changes made unused.\n- Don't remove pre-existing dead code unless asked.\n\nThe test: Every changed line should trace directly to the user's request.\n\n## 4. Goal-Driven Execution\n\n**Define success criteria. Loop until verified.**\n\nTransform tasks into verifiable goals:\n- \"Add validation\" → \"Write tests for invalid inputs, then make them pass\"\n- \"Fix the bug\" → \"Write a test that reproduces it, then make it pass\"\n- \"Refactor X\" → \"Ensure tests pass before and after\"\n\nFor multi-step tasks, state a brief plan:\n```\n1. [Step] → verify: [check]\n2. [Step] → verify: [check]\n3. [Step] → verify: [check]\n```\n\nStrong success criteria let you loop independently. Weak criteria (\"make it work\") require constant clarification.",
+  "title": "Karpathy Guidelines",
+  "tp": "粘贴",
+  "ts": 1793604398649,
+  "u": 1793605036107,
+  "words": [
+   {
+    "ex": "Many English words are derived from Latin.",
+    "grp": "来源",
+    "ipa": "/dɪˈraɪv/",
+    "pos": "v.",
+    "syn": [
+     "originate",
+     "stem",
+     "obtain"
+    ],
+    "w": "derive",
+    "zh": "源自，由…得出"
+   },
+   {
+    "ex": "Students should be aware of the common pitfalls in the exam.",
+    "grp": "风险",
+    "ipa": "/ˈpɪtfɔːl/",
+    "pos": "n.",
+    "syn": [
+     "trap",
+     "hazard",
+     "drawback"
+    ],
+    "w": "pitfall",
+    "zh": "陷阱，隐患"
+   },
+   {
+    "ex": "Personal experience can bias our judgment.",
+    "grp": "态度",
+    "ipa": "/ˈbaɪəs/",
+    "pos": "v.",
+    "syn": [
+     "skew",
+     "tilt",
+     "influence"
+    ],
+    "w": "bias",
+    "zh": "使偏向"
+   },
+   {
+    "ex": "Investors are advised to act with caution.",
+    "grp": "态度",
+    "ipa": "/ˈkɔːʃn/",
+    "pos": "n.",
+    "syn": [
+     "care",
+     "prudence",
+     "wariness"
+    ],
+    "w": "caution",
+    "zh": "谨慎"
+   },
+   {
+    "ex": "They argued over a trivial matter.",
+    "grp": "程度",
+    "ipa": "/ˈtrɪviəl/",
+    "pos": "adj.",
+    "syn": [
+     "minor",
+     "insignificant",
+     "petty"
+    ],
+    "w": "trivial",
+    "zh": "琐碎的，不重要的"
+   },
+   {
+    "ex": "The rules explicitly forbid the use of phones.",
+    "grp": "表达",
+    "ipa": "/ɪkˈsplɪsɪtli/",
+    "pos": "adv.",
+    "syn": [
+     "clearly",
+     "plainly",
+     "specifically"
+    ],
+    "w": "explicitly",
+    "zh": "明确地"
+   },
+   {
+    "ex": "The data allows several different interpretations.",
+    "grp": "理解",
+    "ipa": "/ɪnˌtɜːrprɪˈteɪʃn/",
+    "pos": "n.",
+    "syn": [
+     "reading",
+     "explanation",
+     "understanding"
+    ],
+    "w": "interpretation",
+    "zh": "解释，解读"
+   },
+   {
+    "ex": "The situation does not warrant such a drastic response.",
+    "grp": "论证",
+    "ipa": "/ˈwɔːrənt/",
+    "pos": "v.",
+    "syn": [
+     "justify",
+     "merit",
+     "call for"
+    ],
+    "w": "warrant",
+    "zh": "使有必要，证明…有理由"
+   },
+   {
+    "ex": "The report was based on speculative claims rather than facts.",
+    "grp": "论证",
+    "ipa": "/ˈspekjələtɪv/",
+    "pos": "adj.",
+    "syn": [
+     "hypothetical",
+     "conjectural",
+     "uncertain"
+    ],
+    "w": "speculative",
+    "zh": "推测性的，投机的"
+   },
+   {
+    "ex": "Mathematics relies heavily on abstraction.",
+    "grp": "概念",
+    "ipa": "/æbˈstrækʃn/",
+    "pos": "n.",
+    "syn": [
+     "generalization",
+     "concept",
+     "idea"
+    ],
+    "w": "abstraction",
+    "zh": "抽象，抽象概念"
+   },
+   {
+    "ex": "The library is adjacent to the main building.",
+    "grp": "位置",
+    "ipa": "/əˈdʒeɪsnt/",
+    "pos": "adj.",
+    "syn": [
+     "neighboring",
+     "next to",
+     "adjoining"
+    ],
+    "w": "adjacent",
+    "zh": "相邻的"
+   },
+   {
+    "ex": "The new system will simplify the application process.",
+    "grp": "方法",
+    "ipa": "/ˈsɪmplɪfaɪ/",
+    "pos": "v.",
+    "syn": [
+     "streamline",
+     "make easier",
+     "reduce"
+    ],
+    "w": "simplify",
+    "zh": "简化"
+   },
+   {
+    "ex": "Researchers must verify their results before publication.",
+    "grp": "研究",
+    "ipa": "/ˈverɪfaɪ/",
+    "pos": "v.",
+    "syn": [
+     "confirm",
+     "validate",
+     "check"
+    ],
+    "w": "verify",
+    "zh": "验证，核实"
+   },
+   {
+    "ex": "The selection criteria are clearly stated.",
+    "grp": "评估",
+    "ipa": "/kraɪˈtɪriə/",
+    "pos": "n.",
+    "syn": [
+     "standards",
+     "benchmarks",
+     "requirements"
+    ],
+    "w": "criteria",
+    "zh": "标准（criterion的复数）"
+   },
+   {
+    "ex": "The students asked the teacher for clarification.",
+    "grp": "表达",
+    "ipa": "/ˌklærəfɪˈkeɪʃn/",
+    "pos": "n.",
+    "syn": [
+     "explanation",
+     "clearing up",
+     "elucidation"
+    ],
+    "w": "clarification",
+    "zh": "澄清，说明"
+   },
+   {
+    "ex": "# Karpathy Guidelines\n\nBehavioral guidelines to reduce common LLM coding mistakes, derived from Andrej Karpathy's observations on LLM coding pitfalls.",
+    "grp": "行为规范",
+    "ipa": "/bɪˈheɪvjərəl/",
+    "pos": "adj.",
+    "syn": [
+     "conduct-related",
+     "conduct-based",
+     "behavioural"
+    ],
+    "w": "behavioral",
+    "zh": "行为的;关于行为规范的"
+   },
+   {
+    "ex": "**Tradeoff:** These guidelines bias toward caution over speed.",
+    "grp": "决策权衡",
+    "ipa": "/ˈtreɪdˌɔf/",
+    "pos": "n.",
+    "syn": [
+     "compromise",
+     "trade-off",
+     "exchange"
+    ],
+    "w": "tradeoff",
+    "zh": "权衡;取舍(为得到某物而不得不放弃另一物)"
+   },
+   {
+    "ex": "- No error handling for impossible scenarios.",
+    "grp": "软件开发",
+    "ipa": "/səˈnɛriˌoʊ/",
+    "pos": "n.",
+    "syn": [
+     "situation",
+     "case",
+     "circumstance"
+    ],
+    "w": "scenario",
+    "zh": "情景;设想的情况"
+   },
+   {
+    "ex": "Surgical Changes\n\n**Touch only what you must.",
+    "grp": "编程修改",
+    "ipa": "/ˈsɜːrdʒɪkəl/",
+    "pos": "adj.",
+    "syn": [
+     "precise",
+     "targeted",
+     "minimal"
+    ],
+    "w": "surgical",
+    "zh": "精准的、外科手术式的(只改动必要之处,不波及其他)"
+   },
+   {
+    "ex": "Loop until verified.**\n\nTransform tasks into verifiable goals:\n- \"Add validation\" → \"Write tests for invalid inputs, then make them pass\"\n- \"Fix the bug\" → \"Write a test that reproduces it, then make it pass\"\n- \"Refactor X\" → \"Ensure tests pass before and after\"\n\nFor multi-step tasks, state a brief plan:\n```\n1.",
+    "grp": "软件测试",
+    "ipa": "/ˈvɛrɪˌfaɪəbəl/",
+    "pos": "adj.",
+    "syn": [
+     "checkable",
+     "testable",
+     "confirmable"
+    ],
+    "w": "verifiable",
+    "zh": "可验证的;可核实的(指目标能通过测试等方式客观检验是否达成)"
+   }
+  ],
+  "zh": "卡帕西准则\n\n这些行为准则旨在减少大语言模型在编程中常见的错误，源自安德烈·卡帕西对大语言模型编程陷阱的观察。\n\n**权衡：**这些准则偏向谨慎而非速度。对于琐碎的任务，请自行判断。\n\n1. 编码之前先思考\n\n**不要臆断。不要掩饰困惑。要摆明权衡取舍。**\n\n在动手实现之前：\n- 明确说明你的假设。如果不确定，就提问。\n- 如果存在多种解读，把它们列出来，不要悄悄选一种。\n- 如果存在更简单的方法，请说出来。有正当理由时要提出异议。\n- 如果有不清楚的地方，先停下来。指出让你困惑的地方，然后提问。\n\n2. 简洁优先\n\n**用最少的代码解决问题。不做任何推测性的设计。**\n\n- 不添加被要求之外的功能。\n- 不为只用一次的代码创建抽象。\n- 不添加没有被要求的“灵活性”或“可配置性”。\n- 不为不可能发生的场景编写错误处理。\n- 如果你写了200行而它本可以只有50行，就重写它。\n\n问问自己：“资深工程师会认为这过于复杂吗？”如果会，就简化。\n\n3. 精准修改\n\n**只改你必须改的。只清理你自己造成的混乱。**\n\n在编辑现有代码时：\n- 不要“改进”相邻的代码、注释或格式。\n- 不要重构没有出问题的东西。\n- 与现有风格保持一致，即使你会用不同的方式去做。\n- 如果你注意到无关的死代码，可以提一下，但不要删除它。\n\n当你的改动产生了遗留项时：\n- 删除因你的改动而不再被使用的导入、变量和函数。\n- 除非被要求，否则不要删除原本就存在的死代码。\n\n检验标准：每一行被修改的代码都应能直接追溯到用户的请求。\n\n4. 目标驱动的执行\n\n**定义成功标准。循环迭代直到验证通过。**\n\n把任务转化为可验证的目标：\n- “添加验证”→“为无效输入编写测试，然后让测试通过”\n- “修复这个缺陷”→“编写一个能复现它的测试，然后让测试通过”\n- “重构X”→“确保重构前后测试都能通过”\n\n对于多步骤任务，请说明一个简要计划：\n\n1. [步骤] → 验证：[检查项]\n2. [步骤] → 验证：[检查项]\n3. [步骤] → 验证：[检查项]\n\n明确的成功标准能让你独立地循环迭代。模糊的标准（如“让它能用”）则需要不断地澄清。"
+ },
+ {
+  "lv": "原文",
+  "text": "# Karpathy Guidelines\n\nBehavioral guidelines to reduce common LLM coding mistakes, derived from Andrej Karpathy's observations on LLM coding pitfalls.\n\n**Tradeoff:** These guidelines bias toward caution over speed. For trivial tasks, use judgment.\n\n## 1. Think Before Coding\n\n**Don't assume. Don't hide confusion. Surface tradeoffs.**\n\nBefore implementing:\n- State your assumptions explicitly. If uncertain, ask.\n- If multiple interpretations exist, present them - don't pick silently.\n- If a simpler approach exists, say so. Push back when warranted.\n- If something is unclear, stop. Name what's confusing. Ask.\n\n## 2. Simplicity First\n\n**Minimum code that solves the problem. Nothing speculative.**\n\n- No features beyond what was asked.\n- No abstractions for single-use code.\n- No \"flexibility\" or \"configurability\" that wasn't requested.\n- No error handling for impossible scenarios.\n- If you write 200 lines and it could be 50, rewrite it.\n\nAsk yourself: \"Would a senior engineer say this is overcomplicated?\" If yes, simplify.\n\n## 3. Surgical Changes\n\n**Touch only what you must. Clean up only your own mess.**\n\nWhen editing existing code:\n- Don't \"improve\" adjacent code, comments, or formatting.\n- Don't refactor things that aren't broken.\n- Match existing style, even if you'd do it differently.\n- If you notice unrelated dead code, mention it - don't delete it.\n\nWhen your changes create orphans:\n- Remove imports/variables/functions that YOUR changes made unused.\n- Don't remove pre-existing dead code unless asked.\n\nThe test: Every changed line should trace directly to the user's request.\n\n## 4. Goal-Driven Execution\n\n**Define success criteria. Loop until verified.**\n\nTransform tasks into verifiable goals:\n- \"Add validation\" → \"Write tests for invalid inputs, then make them pass\"\n- \"Fix the bug\" → \"Write a test that reproduces it, then make it pass\"\n- \"Refactor X\" → \"Ensure tests pass before and after\"\n\nFor multi-step tasks, state a brief plan:\n```\n1. [Step] → verify: [check]\n2. [Step] → verify: [check]\n3. [Step] → verify: [check]\n```\n\nStrong success criteria let you loop independently. Weak criteria (\"make it work\") require constant clarification.",
+  "title": "Karpathy Guidelines",
+  "tp": "粘贴",
+  "ts": 1793603638545,
+  "words": [
+   {
+    "ex": "The school issued new guidelines on plagiarism.",
+    "grp": "规则",
+    "ipa": "/ˈɡaɪdlaɪn/",
+    "pos": "n.",
+    "syn": [
+     "rule",
+     "principle",
+     "recommendation"
+    ],
+    "w": "guideline",
+    "zh": "指导方针,准则"
+   },
+   {
+    "ex": "Many English words derive from Latin.",
+    "grp": "来源",
+    "ipa": "/dɪˈraɪv/",
+    "pos": "v.",
+    "syn": [
+     "originate",
+     "stem",
+     "obtain"
+    ],
+    "w": "derive",
+    "zh": "源自,得到"
+   },
+   {
+    "ex": "Students should be aware of the common pitfalls of online learning.",
+    "grp": "风险",
+    "ipa": "/ˈpɪtfɔːl/",
+    "pos": "n.",
+    "syn": [
+     "trap",
+     "hazard",
+     "drawback"
+    ],
+    "w": "pitfall",
+    "zh": "陷阱,隐患"
+   },
+   {
+    "ex": "Poor sampling can bias the results of a survey.",
+    "grp": "态度",
+    "ipa": "/ˈbaɪəs/",
+    "pos": "v.",
+    "syn": [
+     "skew",
+     "sway",
+     "incline"
+    ],
+    "w": "bias",
+    "zh": "使偏向,使有偏见"
+   },
+   {
+    "ex": "Don't waste time on trivial details.",
+    "grp": "程度",
+    "ipa": "/ˈtrɪviəl/",
+    "pos": "adj.",
+    "syn": [
+     "minor",
+     "insignificant",
+     "petty"
+    ],
+    "w": "trivial",
+    "zh": "琐碎的,不重要的"
+   },
+   {
+    "ex": "The rules explicitly forbid the use of phones.",
+    "grp": "表达",
+    "ipa": "/ɪkˈsplɪsɪtli/",
+    "pos": "adv.",
+    "syn": [
+     "clearly",
+     "specifically",
+     "expressly"
+    ],
+    "w": "explicitly",
+    "zh": "明确地"
+   },
+   {
+    "ex": "The poem is open to several interpretations.",
+    "grp": "理解",
+    "ipa": "/ɪnˌtɜːrprɪˈteɪʃn/",
+    "pos": "n.",
+    "syn": [
+     "explanation",
+     "reading",
+     "understanding"
+    ],
+    "w": "interpretation",
+    "zh": "解读,阐释"
+   },
+   {
+    "ex": "The situation warrants immediate action.",
+    "grp": "论证",
+    "ipa": "/ˈwɔːrənt/",
+    "pos": "v.",
+    "syn": [
+     "justify",
+     "merit",
+     "call for"
+    ],
+    "w": "warrant",
+    "zh": "使有必要,证明合理"
+   },
+   {
+    "ex": "The report was based on speculative claims rather than facts.",
+    "grp": "思维",
+    "ipa": "/ˈspekjələtɪv/",
+    "pos": "adj.",
+    "syn": [
+     "hypothetical",
+     "conjectural",
+     "theoretical"
+    ],
+    "w": "speculative",
+    "zh": "推测性的,臆测的"
+   },
+   {
+    "ex": "The library is adjacent to the main hall.",
+    "grp": "位置",
+    "ipa": "/əˈdʒeɪsnt/",
+    "pos": "adj.",
+    "syn": [
+     "neighboring",
+     "next to",
+     "adjoining"
+    ],
+    "w": "adjacent",
+    "zh": "相邻的,邻近的"
+   },
+   {
+    "ex": "The company made surgical cuts to reduce costs.",
+    "grp": "方法",
+    "ipa": "/ˈsɜːrdʒɪkl/",
+    "pos": "adj.",
+    "syn": [
+     "precise",
+     "targeted",
+     "exact"
+    ],
+    "w": "surgical",
+    "zh": "精准的;外科手术的"
+   },
+   {
+    "ex": "Researchers must verify their data before publishing.",
+    "grp": "研究",
+    "ipa": "/ˈverɪfaɪ/",
+    "pos": "v.",
+    "syn": [
+     "confirm",
+     "validate",
+     "check"
+    ],
+    "w": "verify",
+    "zh": "验证,核实"
+   },
+   {
+    "ex": "The criteria for admission are very strict.",
+    "grp": "评估",
+    "ipa": "/kraɪˈtɪriə/",
+    "pos": "n.",
+    "syn": [
+     "standards",
+     "benchmarks",
+     "requirements"
+    ],
+    "w": "criteria",
+    "zh": "标准(criterion的复数)"
+   },
+   {
+    "ex": "The students asked the teacher for clarification.",
+    "grp": "表达",
+    "ipa": "/ˌklærəfɪˈkeɪʃn/",
+    "pos": "n.",
+    "syn": [
+     "explanation",
+     "clearing up",
+     "elucidation"
+    ],
+    "w": "clarification",
+    "zh": "澄清,说明"
+   }
+  ],
+  "zh": "卡帕西准则\n\n这些行为准则旨在减少大语言模型在编程中常犯的错误,源自安德烈·卡帕西对大语言模型编程陷阱的观察。\n\n**权衡:**这些准则宁可谨慎也不求快。对于琐碎的任务,请自行判断。\n\n1. 编码之前先思考\n\n**不要臆断。不要掩饰困惑。把权衡取舍摆到明面上。**\n\n在动手实现之前:\n- 明确陈述你的假设。如果不确定,就提问。\n- 如果存在多种解读,把它们都列出来——不要悄悄选一种。\n- 如果存在更简单的方法,就说出来。有正当理由时要敢于提出异议。\n- 如果有不清楚的地方,就停下来。指出哪里令人困惑,然后提问。\n\n2. 简洁优先\n\n**用最少的代码解决问题。不做任何臆测性的设计。**\n\n- 不添加超出要求的功能。\n- 不为只用一次的代码创建抽象。\n- 不添加没有被要求的“灵活性”或“可配置性”。\n- 不为不可能出现的场景编写错误处理。\n- 如果你写了200行而它本可以只有50行,就重写。\n\n问问自己:“资深工程师会说这太复杂了吗?”如果会,就简化。\n\n3. 外科手术式的改动\n\n**只动必须动的地方。只清理你自己造成的混乱。**\n\n编辑现有代码时:\n- 不要“改进”相邻的代码、注释或格式。\n- 不要重构没有损坏的东西。\n- 保持与现有风格一致,即使你会用不同的写法。\n- 如果你注意到无关的死代码,提一下即可——不要删除。\n\n当你的改动产生孤立代码时:\n- 删除因你的改动而不再被使用的导入/变量/函数。\n- 除非被要求,否则不要删除原本就存在的死代码。\n\n检验标准:每一行改动都应能直接追溯到用户的请求。\n\n4. 以目标为导向的执行\n\n**定义成功标准。循环迭代直到验证通过。**\n\n把任务转化为可验证的目标:\n- “添加校验”→“为无效输入编写测试,然后让测试通过”\n- “修复这个bug”→“编写一个能复现它的测试,然后让测试通过”\n- “重构X”→“确保重构前后测试都通过”\n\n对于多步骤任务,陈述一个简要计划:\n1. [步骤] → 验证:[检查项]\n2. [步骤] → 验证:[检查项]\n3. [步骤] → 验证:[检查项]\n\n明确有力的成功标准能让你独立地循环迭代。模糊的标准(如“让它能用”)则需要不断地澄清。"
+ },
+ {
+  "lv": "原文",
+  "text": "ByteTrack is a fast, open-source multi-object tracking (MOT) algorithm that tracks objects in video by associating almost every detection box rather than only high-confidence ones.\n\nHow It Works (Two-Stage Association)\n\n• Stage 1 (High-Confidence Matching): It matches high-score detection boxes to existing tracklets using the Hungarian algorithm and Intersection over Union (IoU).\n• Stage 2 (Low-Confidence Recovery): It takes the remaining unmatched tracklets and matches them against low-score detection boxes (such as occluded or blurry objects) using a lower IoU threshold.\n• Noise Filtering: Low-score boxes that fail to match any active tracklet are treated as background noise and discarded.\n• Motion Prediction: It relies on a Kalman filter to forecast object positions and handle short-term occlusions without heavy appearance-based ReID (Re-identification) models.\n\nKey Features & Benefits\n\n• Reduced Fragmented Tracks: Retaining low-score boxes significantly lowers false negatives and ID switches during heavy occlusions.\n• High Speed: It runs in real time (e.g., 30 FPS on a single GPU for MOT17) because it uses simple motion and box overlap instead of complex neural network embeddings.\n• Detector Agnostic: It pairs easily with modern object detectors like YOLO (such as YOLOv11) in frameworks like Roboflow Supervision or Ultralytics.\n• Benchmarks: It achieved strong scores on tracking benchmarks like MOT17 (80.3 MOTA, 77.3 IDF1) and MOT20.\nIf you want to use ByteTrack, let me know:\n• What object detector you are using (e.g., YOLOv8, YOLOv11, RT-DETR)\n• What kind of video or application you are tracking (sports, traffic, people counting, etc.)\nI can share a quick Python code snippet or setup guide for your workflow.",
+  "title": "ByteTrack:多目标跟踪算法",
+  "tp": "粘贴",
+  "ts": 1793274722704,
+  "u": 1793274999068,
+  "words": [
+   {
+    "ex": "Many people associate this city with fashion.",
+    "grp": "关系",
+    "ipa": "/əˈsoʊʃieɪt/",
+    "pos": "v.",
+    "syn": [
+     "connect",
+     "link",
+     "relate"
+    ],
+    "w": "associate",
+    "zh": "关联;联系"
+   },
+   {
+    "ex": "The view of the lake was occluded by tall trees.",
+    "grp": "状态",
+    "ipa": "/əˈkluːdɪd/",
+    "pos": "adj.",
+    "syn": [
+     "blocked",
+     "obscured",
+     "hidden"
+    ],
+    "w": "occluded",
+    "zh": "被遮挡的;被堵塞的"
+   },
+   {
+    "ex": "The pain threshold varies from person to person.",
+    "grp": "程度",
+    "ipa": "/ˈθreʃhoʊld/",
+    "pos": "n.",
+    "syn": [
+     "limit",
+     "boundary",
+     "cutoff point"
+    ],
+    "w": "threshold",
+    "zh": "阈值;门槛"
+   },
+   {
+    "ex": "Researchers discarded the unreliable data.",
+    "grp": "处理",
+    "ipa": "/dɪˈskɑːrd/",
+    "pos": "v.",
+    "syn": [
+     "throw away",
+     "reject",
+     "dispose of"
+    ],
+    "w": "discard",
+    "zh": "丢弃;抛弃"
+   },
+   {
+    "ex": "Experts forecast a rise in global temperatures.",
+    "grp": "预测",
+    "ipa": "/ˈfɔːrkæst/",
+    "pos": "v.",
+    "syn": [
+     "predict",
+     "project",
+     "anticipate"
+    ],
+    "w": "forecast",
+    "zh": "预测;预报"
+   },
+   {
+    "ex": "Many islands rely on tourism for income.",
+    "grp": "关系",
+    "ipa": "/rɪˈlaɪ ɑːn/",
+    "pos": "v.",
+    "syn": [
+     "depend on",
+     "count on",
+     "lean on"
+    ],
+    "w": "rely on",
+    "zh": "依靠;依赖"
+   },
+   {
+    "ex": "The fragmented habitat threatens wildlife.",
+    "grp": "状态",
+    "ipa": "/ˈfræɡmentɪd/",
+    "pos": "adj.",
+    "syn": [
+     "broken up",
+     "disjointed",
+     "divided"
+    ],
+    "w": "fragmented",
+    "zh": "碎片化的;不完整的"
+   },
+   {
+    "ex": "The company aims to retain its best employees.",
+    "grp": "处理",
+    "ipa": "/rɪˈteɪn/",
+    "pos": "v.",
+    "syn": [
+     "keep",
+     "preserve",
+     "maintain"
+    ],
+    "w": "retain",
+    "zh": "保留;保持"
+   },
+   {
+    "ex": "Prices have risen significantly this year.",
+    "grp": "程度",
+    "ipa": "/sɪɡˈnɪfɪkəntli/",
+    "pos": "adv.",
+    "syn": [
+     "considerably",
+     "substantially",
+     "markedly"
+    ],
+    "w": "significantly",
+    "zh": "显著地;相当大地"
+   },
+   {
+    "ex": "There is some overlap between the two courses.",
+    "grp": "关系",
+    "ipa": "/ˈoʊvərlæp/",
+    "pos": "n.",
+    "syn": [
+     "intersection",
+     "common ground",
+     "coincidence"
+    ],
+    "w": "overlap",
+    "zh": "重叠;交叠"
+   },
+   {
+    "ex": "Word embedding helps computers understand language.",
+    "grp": "科技",
+    "ipa": "/ɪmˈbedɪŋ/",
+    "pos": "n.",
+    "syn": [
+     "integration",
+     "incorporation",
+     "insertion"
+    ],
+    "w": "embedding",
+    "zh": "嵌入;嵌入表示"
+   },
+   {
+    "ex": "The software is platform agnostic and runs anywhere.",
+    "grp": "科技",
+    "ipa": "/æɡˈnɑːstɪk/",
+    "pos": "adj.",
+    "syn": [
+     "independent",
+     "neutral",
+     "unrestricted"
+    ],
+    "w": "agnostic",
+    "zh": "不受限的;与…无关的"
+   },
+   {
+    "ex": "The test serves as a benchmark for student progress.",
+    "grp": "评估",
+    "ipa": "/ˈbentʃmɑːrk/",
+    "pos": "n.",
+    "syn": [
+     "standard",
+     "yardstick",
+     "reference point"
+    ],
+    "w": "benchmark",
+    "zh": "基准;参照标准"
+   },
+   {
+    "ex": "She achieved excellent results in the exam.",
+    "grp": "成果",
+    "ipa": "/əˈtʃiːv/",
+    "pos": "v.",
+    "syn": [
+     "accomplish",
+     "attain",
+     "reach"
+    ],
+    "w": "achieve",
+    "zh": "取得;实现"
+   },
+   {
+    "ex": "The technology has many practical applications.",
+    "grp": "科技",
+    "ipa": "/ˌæplɪˈkeɪʃn/",
+    "pos": "n.",
+    "syn": [
+     "use",
+     "purpose",
+     "function"
+    ],
+    "w": "application",
+    "zh": "应用;用途"
+   },
+   {
+    "ex": "• Stage 2 (Low-Confidence Recovery): It takes the remaining unmatched tracklets and matches them against low-score detection boxes (such as occluded or blurry objects) using a lower IoU threshold.",
+    "grp": "计算机视觉",
+    "ipa": "/ˈblɝri/",
+    "pos": "adj.",
+    "syn": [
+     "fuzzy",
+     "unclear",
+     "out-of-focus"
+    ],
+    "w": "blurry",
+    "zh": "模糊的(指图像中目标因运动或失焦而不清晰)"
+   },
+   {
+    "ex": "• Motion Prediction: It relies on a Kalman filter to forecast object positions and handle short-term occlusions without heavy appearance-based ReID (Re-identification) models.",
+    "grp": "计算机视觉",
+    "ipa": "/əˈkluːʒən/",
+    "pos": "n.",
+    "syn": [
+     "obstruction",
+     "blockage",
+     "obscuration"
+    ],
+    "w": "occlusion",
+    "zh": "遮挡(目标被其他物体部分或完全挡住而暂时不可见)"
+   }
+  ],
+  "zh": "ByteTrack 是一种快速、开源的多目标跟踪(MOT)算法。它通过关联几乎所有的检测框(而不是只关联高置信度的检测框)来跟踪视频中的物体。[1] [2]\n\n工作原理(两阶段关联)\n\n• 第一阶段(高置信度匹配):它使用匈牙利算法和交并比(IoU),将高分检测框与现有的轨迹片段进行匹配。[1] [2]\n• 第二阶段(低置信度恢复):它取出剩余未匹配的轨迹片段,使用更低的 IoU 阈值,将它们与低分检测框(例如被遮挡或模糊的物体)进行匹配。[1] [2] [3]\n• 噪声过滤:未能与任何活跃轨迹片段匹配的低分检测框会被视为背景噪声并被丢弃。[1] [2]\n• 运动预测:它依靠卡尔曼滤波器来预测物体位置,并处理短时间的遮挡,而无需依赖庞大的、基于外观的重识别(ReID)模型。[1] [2]\n\n主要特点与优势\n\n• 减少碎片化轨迹:保留低分检测框可显著降低漏检以及在严重遮挡期间发生的 ID 切换。[1] [2] [3]\n• 速度快:它可以实时运行(例如在 MOT17 上,单个 GPU 可达 30 帧/秒),因为它使用简单的运动信息和检测框重叠度,而不是复杂的神经网络嵌入。[1] [2]\n• 与检测器无关:它可以很方便地与 YOLO(如 YOLOv11)等现代目标检测器搭配,并可用于 Roboflow Supervision 或 Ultralytics 等框架。[1] [2] [3]\n• 基准测试:它在 MOT17(80.3 MOTA,77.3 IDF1)和 MOT20 等跟踪基准测试中取得了很好的成绩。[1]\n如果你想使用 ByteTrack,请告诉我:\n• 你使用的是哪种目标检测器(例如 YOLOv8、YOLOv11、RT-DETR)\n• 你要跟踪的是哪种视频或应用场景(体育、交通、人数统计等)\n我可以为你的工作流程提供一小段 Python 代码示例或配置指南。"
+ },
+ {
+  "lv": "原文",
+  "text": "NVIDIA Announces CEO Transition\n\nNovember 12, 2026\n\nJensen Huang Resigns\n\nColette Kress, Executive Vice President and Chief Financial Officer, Appointed Interim CEO\n\nHarvey C. Jones Appointed First-Ever Chair of the Board\n\nNVIDIA (NASDAQ: NVDA) Board of Directors announced today that Jensen Huang has resigned as President, Chief Executive Officer, and a member of the Board, effective immediately.\n\nColette Kress, current Executive Vice President and Chief Financial Officer of NVIDIA, has agreed to serve as Interim Chief Executive Officer. Kress will continue to serve as Executive Vice President and Chief Financial Officer while serving as Interim Chief Executive Officer until a permanent successor has been named. The Board is initiating a search for a permanent Chief Executive Officer and will consider internal and external candidates.\n\nKress has served as Executive Vice President and Chief Financial Officer of NVIDIA since joining the company in September 2013. During her tenure, she has led the company’s finance organization and has played a key role in NVIDIA’s growth and evolution. Prior to joining NVIDIA, Kress spent nearly 25 years in finance roles at leading technology companies, including Cisco and Microsoft.\n\nThe Board of Directors appointed Harvey C. Jones as its first-ever Chair of the Board.  Mr. Jones has been an entrepreneur, technology executive, and active venture investor for over 30 years, including serving as Chief Executive Officer and Executive Chairman of Synopsys.\n\n“Colette has helped lead NVIDIA through a period of extraordinary growth and has a deep understanding of our business, customers, operations and financial position,” said Harvey Jones, Chair of the NVIDIA Board of Directors. “She is supported by an experienced leadership team that has been instrumental in executing NVIDIA’s strategy and advancing its technology roadmap. The Board has full confidence in Colette and the leadership team, and we expect the company’s operations, customer commitments and product roadmap to continue without interruption.”\n\n“NVIDIA’s strength has always come from its people, and together with our leadership team, I am committed to building on the extraordinary foundation Jensen created over the last 33 years,” said Colette Kress, Interim CEO and CFO, NVIDIA. “We will continue advancing the work that has made NVIDIA a leader in accelerated computing and AI, and execute on the opportunities ahead. Our focus remains on serving our customers, partners, developers and shareholders.”\n\nJensen’s contributions to NVIDIA are profound. NVIDIA is one of the most consequential technology companies in the world. The Board and the company thank Jensen for his immeasurable contributions to the company and the industry.\n\nNVIDIA will report its third-quarter fiscal 2027 financial results on Tuesday, November 17, at approximately 1:20 p.m. PT, as previously scheduled, followed by its earnings call at 2 p.m. PT.",
+  "title": "NVIDIA Announces CEO Transition",
+  "tp": "粘贴",
+  "ts": 1794532500640,
+  "u": 1794537279486,
+  "words": [
+   {
+    "ex": "An interim manager was appointed after the director left.",
+    "grp": "职场管理",
+    "ipa": "/ˈɪntərɪm/",
+    "pos": "adj.",
+    "syn": [
+     "temporary",
+     "provisional",
+     "acting"
+    ],
+    "w": "interim",
+    "zh": "临时的，过渡期的"
+   },
+   {
+    "ex": "The company has not yet chosen a successor.",
+    "grp": "职场管理",
+    "ipa": "/səkˈsɛsər/",
+    "pos": "n.",
+    "syn": [
+     "replacement",
+     "heir",
+     "follower"
+    ],
+    "w": "successor",
+    "zh": "继任者"
+   },
+   {
+    "ex": "She decided to resign after ten years.",
+    "grp": "职场管理",
+    "ipa": "/rɪˈzaɪn/",
+    "pos": "v.",
+    "syn": [
+     "step down",
+     "quit",
+     "leave office"
+    ],
+    "w": "resign",
+    "zh": "辞职"
+   },
+   {
+    "ex": "During his tenure, sales doubled.",
+    "grp": "职场管理",
+    "ipa": "/ˈtɛnjər/",
+    "pos": "n.",
+    "syn": [
+     "term of office",
+     "period in post",
+     "incumbency"
+    ],
+    "w": "tenure",
+    "zh": "任期，任职期间"
+   },
+   {
+    "ex": "The government initiated a new reform programme.",
+    "grp": "行动过程",
+    "ipa": "/ɪˈnɪʃieɪt/",
+    "pos": "v.",
+    "syn": [
+     "launch",
+     "begin",
+     "set in motion"
+    ],
+    "w": "initiate",
+    "zh": "发起，启动"
+   },
+   {
+    "ex": "Each candidate was interviewed twice.",
+    "grp": "职场管理",
+    "ipa": "/ˈkændɪdeɪt/",
+    "pos": "n.",
+    "syn": [
+     "applicant",
+     "nominee",
+     "contender"
+    ],
+    "w": "candidate",
+    "zh": "候选人"
+   },
+   {
+    "ex": "The young entrepreneur started a software firm.",
+    "grp": "商业经济",
+    "ipa": "/ˌɑːntrəprəˈnɜːr/",
+    "pos": "n.",
+    "syn": [
+     "business founder",
+     "businessperson",
+     "start-up owner"
+    ],
+    "w": "entrepreneur",
+    "zh": "企业家，创业者"
+   },
+   {
+    "ex": "The venture received funding from investors.",
+    "grp": "商业经济",
+    "ipa": "/ˈvɛntʃər/",
+    "pos": "n.",
+    "syn": [
+     "enterprise",
+     "undertaking",
+     "risky project"
+    ],
+    "w": "venture",
+    "zh": "风险投资的企业；冒险事业"
+   },
+   {
+    "ex": "She was instrumental in securing the deal.",
+    "grp": "评价描述",
+    "ipa": "/ˌɪnstrəˈmɛntl/",
+    "pos": "adj.",
+    "syn": [
+     "crucial",
+     "key",
+     "influential"
+    ],
+    "w": "instrumental",
+    "zh": "起重要作用的"
+   },
+   {
+    "ex": "The team executed the plan successfully.",
+    "grp": "行动过程",
+    "ipa": "/ˈɛksɪkjuːt/",
+    "pos": "v.",
+    "syn": [
+     "carry out",
+     "implement",
+     "perform"
+    ],
+    "w": "execute",
+    "zh": "执行，实施"
+   },
+   {
+    "ex": "The invention had a profound effect on society.",
+    "grp": "评价描述",
+    "ipa": "/prəˈfaʊnd/",
+    "pos": "adj.",
+    "syn": [
+     "deep",
+     "far-reaching",
+     "significant"
+    ],
+    "w": "profound",
+    "zh": "深刻的，意义深远的"
+   },
+   {
+    "ex": "It was a consequential decision for the whole industry.",
+    "grp": "评价描述",
+    "ipa": "/ˌkɑːnsəˈkwɛnʃl/",
+    "pos": "adj.",
+    "syn": [
+     "important",
+     "significant",
+     "influential"
+    ],
+    "w": "consequential",
+    "zh": "重要的，有重大影响的"
+   },
+   {
+    "ex": "The volunteers made an immeasurable contribution.",
+    "grp": "评价描述",
+    "ipa": "/ɪˈmɛʒərəbl/",
+    "pos": "adj.",
+    "syn": [
+     "incalculable",
+     "vast",
+     "limitless"
+    ],
+    "w": "immeasurable",
+    "zh": "不可估量的"
+   },
+   {
+    "ex": "Education provides a foundation for future success.",
+    "grp": "商业经济",
+    "ipa": "/faʊnˈdeɪʃn/",
+    "pos": "n.",
+    "syn": [
+     "basis",
+     "groundwork",
+     "base"
+    ],
+    "w": "foundation",
+    "zh": "基础，根基"
+   },
+   {
+    "ex": "Shareholders voted on the merger.",
+    "grp": "商业经济",
+    "ipa": "/ˈʃɛrhoʊldər/",
+    "pos": "n.",
+    "syn": [
+     "stockholder",
+     "investor",
+     "equity owner"
+    ],
+    "w": "shareholder",
+    "zh": "股东"
+   },
+   {
+    "ex": "Jones Appointed First-Ever Chair of the Board\n\nNVIDIA (NASDAQ: NVDA) Board of Directors announced today that Jensen Huang has resigned as President, Chief Executive Officer, and a member of the Board, effective immediately.",
+    "grp": "公司治理",
+    "ipa": "/dɪˈrɛktər/",
+    "pos": "n.",
+    "syn": [
+     "board member",
+     "trustee",
+     "executive"
+    ],
+    "w": "director",
+    "zh": "董事(董事会成员)"
+   },
+   {
+    "ex": "Jones Appointed First-Ever Chair of the Board\n\nNVIDIA (NASDAQ: NVDA) Board of Directors announced today that Jensen Huang has resigned as President, Chief Executive Officer, and a member of the Board, effective immediately.",
+    "grp": "公司治理",
+    "ipa": "/bɔːrd/",
+    "pos": "n.",
+    "syn": [
+     "board of directors",
+     "directorate",
+     "governing body"
+    ],
+    "w": "board",
+    "zh": "董事会(公司的最高决策管理机构)"
+   },
+   {
+    "ex": "The Board has full confidence in Colette and the leadership team, and we expect the company’s operations, customer commitments and product roadmap to continue without interruption.”\n\n“NVIDIA’s strength has always come from its people, and together with our leadership team, I am committed to building on the extraordinary foundation Jensen created over the last 33 years,” said Colette Kress, Interim CEO and CFO, NVIDIA.",
+    "grp": "商务公告",
+    "ipa": "/kəˈmɪtmənt/",
+    "pos": "n.",
+    "syn": [
+     "pledge",
+     "obligation",
+     "undertaking"
+    ],
+    "w": "commitment",
+    "zh": "承诺;对客户的约定义务"
+   },
+   {
+    "ex": "Jones Appointed First-Ever Chair of the Board\n\nNVIDIA (NASDAQ: NVDA) Board of Directors announced today that Jensen Huang has resigned as President, Chief Executive Officer, and a member of the Board, effective immediately.",
+    "grp": "新闻用语",
+    "ipa": "/ˈfɜrst ˈɛvər/",
+    "pos": "adj.",
+    "syn": [
+     "inaugural",
+     "unprecedented",
+     "first-time"
+    ],
+    "w": "first-ever",
+    "zh": "史上首位的;首次出现的(强调此前从未有过)"
+   },
+   {
+    "ex": "Jones Appointed First-Ever Chair of the Board\n\nNVIDIA (NASDAQ: NVDA) Board of Directors announced today that Jensen Huang has resigned as President, Chief Executive Officer, and a member of the Board, effective immediately.",
+    "grp": "公司公告",
+    "ipa": "/ɪˈfɛktɪv/",
+    "pos": "adj.",
+    "syn": [
+     "operative",
+     "in force",
+     "valid"
+    ],
+    "w": "effective",
+    "zh": "生效的;起作用的(此处指决定即刻生效)"
+   },
+   {
+    "ex": "NVIDIA Announces CEO Transition\n\nNovember 12, 2026\n\nJensen Huang Resigns\n\nColette Kress, Executive Vice President and Chief Financial Officer, Appointed Interim CEO\n\nHarvey C.",
+    "grp": "人名",
+    "ipa": "/kəˈlɛt krɛs/",
+    "pos": "phrase",
+    "syn": [
+     "NVIDIA CFO",
+     "interim CEO",
+     "Executive Vice President"
+    ],
+    "w": "Colette Kress",
+    "zh": "科莱特·克雷斯(英伟达执行副总裁兼首席财务官,文中被任命为临时CEO)"
+   },
+   {
+    "ex": "NVIDIA Announces CEO Transition\n\nNovember 12, 2026\n\nJensen Huang Resigns\n\nColette Kress, Executive Vice President and Chief Financial Officer, Appointed Interim CEO\n\nHarvey C.",
+    "grp": "职衔称谓",
+    "ipa": "/vaɪs/",
+    "pos": "adj.",
+    "syn": [
+     "deputy",
+     "assistant",
+     "second-in-command"
+    ],
+    "w": "vice",
+    "zh": "副的;副职的(用于职衔,如 Vice President 副总裁)"
+   },
+   {
+    "ex": "",
+    "grp": "人名",
+    "ipa": "/ˈhɑːrvi siː dʒoʊnz/",
+    "pos": "phrase",
+    "syn": [
+     "Harvey Jones",
+     "Harvey C. Jones Jr.",
+     "a person's name"
+    ],
+    "w": "Harvey C. Jones",
+    "zh": "哈维·C·琼斯(人名,通常指美国男性姓名;常指硅谷企业家、Sun Microsystems 早期员工及风险投资人)"
+   }
+  ],
+  "zh": "英伟达宣布首席执行官交接\n\n2026年11月12日\n\n黄仁勋辞职\n\n执行副总裁兼首席财务官科莱特·克雷斯被任命为临时首席执行官\n\n哈维·C·琼斯被任命为公司首任董事会主席\n\n英伟达（纳斯达克代码：NVDA）董事会今日宣布，黄仁勋已辞去总裁、首席执行官及董事会成员职务，即刻生效。\n\n英伟达现任执行副总裁兼首席财务官科莱特·克雷斯已同意出任临时首席执行官。在正式继任者确定之前，克雷斯在担任临时首席执行官期间将继续兼任执行副总裁和首席财务官。董事会正在启动寻找正式首席执行官的工作，并将考虑内部和外部候选人。\n\n自2013年9月加入公司以来，克雷斯一直担任英伟达执行副总裁兼首席财务官。在任期间，她领导公司的财务部门，并在英伟达的成长与发展中发挥了关键作用。加入英伟达之前，克雷斯在包括思科和微软在内的领先科技公司从事财务工作近25年。\n\n董事会任命哈维·C·琼斯为公司首任董事会主席。琼斯先生三十多年来一直是企业家、科技企业高管和活跃的风险投资人，其经历包括曾担任新思科技的首席执行官和执行主席。\n\n“科莱特带领英伟达度过了一段非同寻常的高速增长时期，对我们的业务、客户、运营和财务状况有着深刻的理解，”英伟达董事会主席哈维·琼斯说。“她得到一支经验丰富的领导团队的支持，这支团队在执行英伟达战略和推进技术路线图方面发挥了重要作用。董事会对科莱特和领导团队充满信心，我们预计公司的运营、客户承诺和产品路线图将不受干扰地继续推进。”\n\n“英伟达的实力始终来自于它的员工，我将与领导团队一道，致力于在黄仁勋过去33年所打下的非凡基础上继续前进，”英伟达临时首席执行官兼首席财务官科莱特·克雷斯说。“我们将继续推进使英伟达成为加速计算和人工智能领域领导者的工作，并把握未来的机遇。我们的重心依然是服务客户、合作伙伴、开发者和股东。”\n\n黄仁勋对英伟达的贡献意义深远。英伟达是全球最具影响力的科技公司之一。董事会和公司感谢黄仁勋对公司和行业作出的不可估量的贡献。\n\n英伟达将按原计划于11月17日（星期二）太平洋时间下午1:20左右公布2027财年第三季度财务业绩，随后于下午2点举行财报电话会议。"
+ },
+ {
+  "lv": "原文",
+  "text": "A Message to Our Company\nNVIDIA founder and CEO Jensen Huang sent the following email to NVIDIA employees earlier today.\nNovember 8, 2026\n\nI owe my family and all of you an apology.\n\nI was unfaithful to my wife. My actions hurt her and our children. There is no excuse for what I did. I am deeply sorry.\n\nThroughout my life, my family has given me love and support. They deserve my honesty and loyalty. Instead, I let them down and damaged the life we built together. I take full responsibility for what I did and the hurt I caused, and I accept the criticism that comes with it.\n\nTo my wife and family: I love you. I know an apology cannot undo what I have done. I hope our family will heal and that, over time, I can earn back your trust.\n\nTo my colleagues at NVIDIA, including those I have worked alongside for decades, and to our board, partners, and shareholders around the world: you deserve better from me. Leading NVIDIA is the privilege of my life. My responsibility is to serve you and be worthy of your trust. I have fallen short of that responsibility. I am fully committed to NVIDIA and will work to earn back your confidence.\n\nRegarding the national security concerns raised in news reports, NVIDIA's Board of Directors has initiated an independent investigation. I support the investigation and will cooperate fully. I love our country and our company. I am committed to protecting NVIDIA and supporting America's national security. I am proud and grateful to be an American.\n\nMy family bears no responsibility for my choices. I do. Please give them privacy.\n\nJensen",
+  "title": "A Message to Our Company",
+  "tp": "粘贴",
+  "ts": 1794312965227,
+  "u": 1794313067340,
+  "words": [
+   {
+    "ex": "He was unfaithful to his partner.",
+    "grp": "品德",
+    "ipa": "/ʌnˈfeɪθfəl/",
+    "pos": "adj.",
+    "syn": [
+     "disloyal",
+     "untrue",
+     "two-timing"
+    ],
+    "w": "unfaithful",
+    "zh": "不忠的"
+   },
+   {
+    "ex": "She offered a public apology for the mistake.",
+    "grp": "交际",
+    "ipa": "/əˈpɑːlədʒi/",
+    "pos": "n.",
+    "syn": [
+     "expression of regret",
+     "acknowledgment of fault"
+    ],
+    "w": "apology",
+    "zh": "道歉"
+   },
+   {
+    "ex": "Employees showed great loyalty to the company.",
+    "grp": "品德",
+    "ipa": "/ˈlɔɪəlti/",
+    "pos": "n.",
+    "syn": [
+     "allegiance",
+     "faithfulness",
+     "devotion"
+    ],
+    "w": "loyalty",
+    "zh": "忠诚"
+   },
+   {
+    "ex": "Everyone deserves a fair chance.",
+    "grp": "评价",
+    "ipa": "/dɪˈzɜːrv/",
+    "pos": "v.",
+    "syn": [
+     "merit",
+     "be worthy of",
+     "earn"
+    ],
+    "w": "deserve",
+    "zh": "应得，值得"
+   },
+   {
+    "ex": "The policy drew strong criticism.",
+    "grp": "评价",
+    "ipa": "/ˈkrɪtɪsɪzəm/",
+    "pos": "n.",
+    "syn": [
+     "censure",
+     "disapproval",
+     "condemnation"
+    ],
+    "w": "criticism",
+    "zh": "批评"
+   },
+   {
+    "ex": "It takes time for relationships to heal.",
+    "grp": "情感",
+    "ipa": "/hiːl/",
+    "pos": "v.",
+    "syn": [
+     "recover",
+     "mend",
+     "be restored"
+    ],
+    "w": "heal",
+    "zh": "愈合，恢复"
+   },
+   {
+    "ex": "It is a privilege to teach these students.",
+    "grp": "社会",
+    "ipa": "/ˈprɪvəlɪdʒ/",
+    "pos": "n.",
+    "syn": [
+     "honor",
+     "advantage",
+     "entitlement"
+    ],
+    "w": "privilege",
+    "zh": "荣幸，特权"
+   },
+   {
+    "ex": "She proved worthy of the award.",
+    "grp": "评价",
+    "ipa": "/ˈwɜːrði/",
+    "pos": "adj.",
+    "syn": [
+     "deserving",
+     "valuable",
+     "suitable"
+    ],
+    "w": "worthy",
+    "zh": "值得的，配得上的"
+   },
+   {
+    "ex": "The team is committed to reducing waste.",
+    "grp": "态度",
+    "ipa": "/kəˈmɪtɪd/",
+    "pos": "adj.",
+    "syn": [
+     "dedicated",
+     "devoted",
+     "determined"
+    ],
+    "w": "committed",
+    "zh": "投入的，忠诚的"
+   },
+   {
+    "ex": "Investors lost confidence in the firm.",
+    "grp": "商业",
+    "ipa": "/ˈkɑːnfɪdəns/",
+    "pos": "n.",
+    "syn": [
+     "trust",
+     "faith",
+     "assurance"
+    ],
+    "w": "confidence",
+    "zh": "信心，信任"
+   },
+   {
+    "ex": "The council initiated a review of the scheme.",
+    "grp": "行动",
+    "ipa": "/ɪˈnɪʃieɪt/",
+    "pos": "v.",
+    "syn": [
+     "launch",
+     "begin",
+     "set in motion"
+    ],
+    "w": "initiate",
+    "zh": "发起，启动"
+   },
+   {
+    "ex": "An independent panel examined the evidence.",
+    "grp": "机构",
+    "ipa": "/ˌɪndɪˈpendənt/",
+    "pos": "adj.",
+    "syn": [
+     "impartial",
+     "autonomous",
+     "unbiased"
+    ],
+    "w": "independent",
+    "zh": "独立的"
+   },
+   {
+    "ex": "Witnesses agreed to cooperate with police.",
+    "grp": "行动",
+    "ipa": "/koʊˈɑːpəreɪt/",
+    "pos": "v.",
+    "syn": [
+     "collaborate",
+     "work together",
+     "assist"
+    ],
+    "w": "cooperate",
+    "zh": "合作，配合"
+   },
+   {
+    "ex": "Shareholders voted on the merger.",
+    "grp": "商业",
+    "ipa": "/ˈʃerhoʊldər/",
+    "pos": "n.",
+    "syn": [
+     "stockholder",
+     "investor",
+     "equity holder"
+    ],
+    "w": "shareholder",
+    "zh": "股东"
+   },
+   {
+    "ex": "Parents bear responsibility for their children's safety.",
+    "grp": "责任",
+    "ipa": "/ber/",
+    "pos": "v.",
+    "syn": [
+     "shoulder",
+     "carry",
+     "assume"
+    ],
+    "w": "bear",
+    "zh": "承担"
+   },
+   {
+    "ex": "To my colleagues at NVIDIA, including those I have worked alongside for decades, and to our board, partners, and shareholders around the world: you deserve better from me.",
+    "grp": "职场人际",
+    "ipa": "/ˈkɑliɡ/",
+    "pos": "n.",
+    "syn": [
+     "coworker",
+     "associate",
+     "teammate"
+    ],
+    "w": "colleague",
+    "zh": "同事;共事的人"
+   }
+  ],
+  "zh": "致公司全体员工的一封信\n\n英伟达创始人兼首席执行官黄仁勋今天早些时候向英伟达员工发送了以下电子邮件。\n\n2026年11月8日\n\n我欠我的家人和你们所有人一个道歉。\n\n我对妻子不忠。我的行为伤害了她和我们的孩子。我所做的事情没有任何借口。我深感抱歉。\n\n在我的一生中，家人给了我爱与支持。他们理应得到我的诚实与忠诚。然而，我辜负了他们，破坏了我们共同建立的生活。我对自己的所作所为以及所造成的伤害负全部责任，并接受随之而来的批评。\n\n致我的妻子和家人：我爱你们。我知道道歉无法抹去我所做的一切。我希望我们的家庭能够愈合，也希望随着时间的推移，我能重新赢得你们的信任。\n\n致英伟达的同事们，包括与我共事数十年的人，以及我们的董事会、合作伙伴和世界各地的股东：你们值得我做得更好。领导英伟达是我一生的荣幸。我的责任是为你们服务，并配得上你们的信任。我没有履行好这份责任。我对英伟达full投入，并将努力重新赢得你们的信心。\n\n关于新闻报道中提出的国家安全问题，英伟达董事会已启动独立调查。我支持这项调查，并将全力配合。我热爱我们的国家和我们的公司。我致力于保护英伟达并支持美国的国家安全。身为美国人，我感到自豪和感恩。\n\n我的家人对我的选择不负任何责任，责任在我。请给他们留出私人空间。\n\n仁勋"
+ }
+]
